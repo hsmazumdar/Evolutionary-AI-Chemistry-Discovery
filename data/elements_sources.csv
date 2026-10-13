@@ -1,0 +1,16 @@
+column,source
+Z,mendeleev
+symbol,mendeleev
+name,mendeleev
+atomic_mass,mendeleev (IUPAC standard atomic weights)
+electron_configuration,mendeleev
+electronegativity_pauling,mendeleev (Pauling scale)
+atomic_radius_pm,mendeleev atomic_radius (Slater 1964 empirical)
+covalent_radius_pm,mendeleev covalent_radius_pyykko (Pyykko & Atsumi 2009)
+first_ionization_energy_eV,mendeleev (NIST ASD)
+melting_point_K,mendeleev
+boiling_point_K,mendeleev
+density_g_cm3,mendeleev
+common_oxidation_states,"mendeleev oxistates (main/common only) - LEAKAGE RISK, excluded in no-oxstate experiment"
+superheavy_or_predicted_flag,mendeleev
+missing_fields,mendeleev

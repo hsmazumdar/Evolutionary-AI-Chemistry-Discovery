@@ -1,0 +1,448 @@
+{
+  "context": "Fe-Na-O-P formation energy, split random_split_seed0",
+  "created": "2026-10-13T17:51:50",
+  "principle": "No rule is permanent; every rule can be revised when evidence demands.",
+  "rules": [
+    {
+      "id": "R000",
+      "rule": "Ef = -0.064 + -0.467 * (sqrt|dev_rCov| * (mean_EN)^2)",
+      "adopted_generation": 0,
+      "phase": "evolution",
+      "complexity_nodes": 5,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.3696
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R001",
+      "superseded_at_generation": 2
+    },
+    {
+      "id": "R001",
+      "rule": "Ef = -0.032 + 0.515 * -(((range_EN / mean_rA) * sqrt|mean_EN|))",
+      "adopted_generation": 2,
+      "phase": "evolution",
+      "complexity_nodes": 7,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.344
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R002",
+      "superseded_at_generation": 3
+    },
+    {
+      "id": "R002",
+      "rule": "Ef = 0.053 + -0.314 * ((sqrt|dev_rCov| * (mean_EN)^2) + (n_elem * sqrt|(dev_EN)^2|))",
+      "adopted_generation": 3,
+      "phase": "evolution",
+      "complexity_nodes": 11,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.3182
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R003",
+      "superseded_at_generation": 4
+    },
+    {
+      "id": "R003",
+      "rule": "Ef = 0.327 + -0.177 * ((sqrt|dev_rCov| * (mean_EN)^2) + (n_elem * (mean_EN + dev_IE)))",
+      "adopted_generation": 4,
+      "phase": "evolution",
+      "complexity_nodes": 11,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.3163
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R004",
+      "superseded_at_generation": 5
+    },
+    {
+      "id": "R004",
+      "rule": "Ef = 0.088 + -0.097 * (((dev_rCov / 0.13) * (mean_EN)^2) + (n_elem * sqrt|n_elem|))",
+      "adopted_generation": 5,
+      "phase": "evolution",
+      "complexity_nodes": 11,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.291
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R005",
+      "superseded_at_generation": 7
+    },
+    {
+      "id": "R005",
+      "rule": "Ef = 0.256 + -0.069 * (((dev_rCov / 0.13) * (mean_EN)^2) + (n_elem * (mean_EN + mean_EN)))",
+      "adopted_generation": 7,
+      "phase": "evolution",
+      "complexity_nodes": 12,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.2865
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R006",
+      "superseded_at_generation": 8
+    },
+    {
+      "id": "R006",
+      "rule": "Ef = 0.514 + -0.357 * ((sqrt|dev_rCov| * (mean_EN)^2) + n_elem)",
+      "adopted_generation": 8,
+      "phase": "evolution",
+      "complexity_nodes": 7,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.2954
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R007",
+      "superseded_at_generation": 10
+    },
+    {
+      "id": "R007",
+      "rule": "Ef = 1.463 + -1.305 * sqrt|(n_elem + (((dev_rCov / mean_rA) * sqrt|n_elem|) * (mean_EN)^2))|",
+      "adopted_generation": 10,
+      "phase": "evolution",
+      "complexity_nodes": 12,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.2754
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R008",
+      "superseded_at_generation": 14
+    },
+    {
+      "id": "R008",
+      "rule": "Ef = 0.974 + -0.943 * sqrt|(n_elem + (((dev_rCov / mean_rA) * n_elem) * (mean_EN)^2))|",
+      "adopted_generation": 14,
+      "phase": "evolution",
+      "complexity_nodes": 11,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.2743
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R009",
+      "superseded_at_generation": 16
+    },
+    {
+      "id": "R009",
+      "rule": "Ef = 0.564 + -0.454 * ((n_elem + ((dev_rCov / mean_rA) * (mean_EN)^2)) + dev_rCov)",
+      "adopted_generation": 16,
+      "phase": "evolution",
+      "complexity_nodes": 10,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.2717
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R010",
+      "superseded_at_generation": 18
+    },
+    {
+      "id": "R010",
+      "rule": "Ef = 0.552 + -0.476 * (n_elem + ((dev_rCov / mean_rA) * (mean_EN)^2))",
+      "adopted_generation": 18,
+      "phase": "evolution",
+      "complexity_nodes": 8,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.2756
+      },
+      "confidence": {
+        "fraction_train_within_0.15eV": 0.455,
+        "train_MAE": 0.2756
+      },
+      "limits": {
+        "trained_on": "55 Fe-Na-O-P formulas",
+        "mean_EN_range": [
+          0.93,
+          3.44
+        ],
+        "note": "valid only inside the Fe-Na-O-P system and DFT (GGA/GGA+U/r2SCAN) energies"
+      },
+      "contradictions": [
+        {
+          "formula": "NaO2",
+          "Ef_DFT": -0.9068322404597692,
+          "Ef_rule": -1.720559753078612,
+          "n_icsd": 5
+        },
+        {
+          "formula": "P2O5",
+          "Ef_DFT": -2.449045707040817,
+          "Ef_rule": -1.642261577951646,
+          "n_icsd": 4
+        }
+      ],
+      "superseded_by": "R011",
+      "superseded_at_generation": 40
+    },
+    {
+      "id": "R011",
+      "rule": "Ef = 0.544 + -0.474 * (n_elem + ((dev_rCov / mean_rA) * (mean_EN)^2))",
+      "adopted_generation": 40,
+      "phase": "contradiction-driven",
+      "complexity_nodes": 8,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.3114
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R012",
+      "superseded_at_generation": 41
+    },
+    {
+      "id": "R012",
+      "rule": "Ef = 1.041 + -0.689 * ((n_elem + ((dev_rCov / mean_rA) * ((mean_nval + range_IE) / range_nval))) + dev_rCov)",
+      "adopted_generation": 41,
+      "phase": "contradiction-driven",
+      "complexity_nodes": 13,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.2813
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R013",
+      "superseded_at_generation": 43
+    },
+    {
+      "id": "R013",
+      "rule": "Ef = 1.050 + -0.740 * (n_elem + ((dev_rCov / mean_rA) * ((mean_nval + range_IE) / range_nval)))",
+      "adopted_generation": 43,
+      "phase": "contradiction-driven",
+      "complexity_nodes": 11,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.279
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R014",
+      "superseded_at_generation": 47
+    },
+    {
+      "id": "R014",
+      "rule": "Ef = 0.853 + -0.597 * (n_elem + ((dev_rCov / mean_rA) * (range_EN / range_nval)))",
+      "adopted_generation": 47,
+      "phase": "contradiction-driven",
+      "complexity_nodes": 9,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.2764
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R015",
+      "superseded_at_generation": 49
+    },
+    {
+      "id": "R015",
+      "rule": "Ef = 1.682 + -0.818 * ((n_elem + ((dev_rCov / mean_rA) * ((mean_nval + range_IE) / range_nval))) + (dev_rCov / range_rCov))",
+      "adopted_generation": 49,
+      "phase": "contradiction-driven",
+      "complexity_nodes": 15,
+      "status": "superseded",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.2474
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "superseded_by": "R016",
+      "superseded_at_generation": 51
+    },
+    {
+      "id": "R016",
+      "rule": "Ef = 1.826 + -0.915 * ((n_elem + ((dev_rCov / mean_rA) * ((mean_nval + dev_rCov) / range_nval))) + (dev_rCov / range_rCov))",
+      "adopted_generation": 51,
+      "phase": "contradiction-driven",
+      "complexity_nodes": 15,
+      "status": "active",
+      "evidence": {
+        "n_training_compounds": 55,
+        "train_MAE_eV_per_atom": 0.234
+      },
+      "confidence": null,
+      "limits": null,
+      "contradictions": [],
+      "after_contradiction_cycle_test_note": "test MAE is reported in results only, never used by the learner"
+    }
+  ],
+  "revision_history": [
+    {
+      "generation": 2,
+      "from": "R000",
+      "to": "R001",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.3696,
+      "train_MAE_after": 0.344
+    },
+    {
+      "generation": 3,
+      "from": "R001",
+      "to": "R002",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.344,
+      "train_MAE_after": 0.3182
+    },
+    {
+      "generation": 4,
+      "from": "R002",
+      "to": "R003",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.3182,
+      "train_MAE_after": 0.3163
+    },
+    {
+      "generation": 5,
+      "from": "R003",
+      "to": "R004",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.3163,
+      "train_MAE_after": 0.291
+    },
+    {
+      "generation": 7,
+      "from": "R004",
+      "to": "R005",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.291,
+      "train_MAE_after": 0.2865
+    },
+    {
+      "generation": 8,
+      "from": "R005",
+      "to": "R006",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.2865,
+      "train_MAE_after": 0.2954
+    },
+    {
+      "generation": 10,
+      "from": "R006",
+      "to": "R007",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.2954,
+      "train_MAE_after": 0.2754
+    },
+    {
+      "generation": 14,
+      "from": "R007",
+      "to": "R008",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.2754,
+      "train_MAE_after": 0.2743
+    },
+    {
+      "generation": 16,
+      "from": "R008",
+      "to": "R009",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.2743,
+      "train_MAE_after": 0.2717
+    },
+    {
+      "generation": 18,
+      "from": "R009",
+      "to": "R010",
+      "reason": "lower fitness (error + complexity) found",
+      "train_MAE_before": 0.2717,
+      "train_MAE_after": 0.2756
+    },
+    {
+      "generation": 40,
+      "from": "R010",
+      "to": "R011",
+      "reason": "re-weighted 2 contradicting compounds x3",
+      "train_MAE_before": 0.2756,
+      "train_MAE_after": 0.3114
+    },
+    {
+      "generation": 41,
+      "from": "R011",
+      "to": "R012",
+      "reason": "re-weighted 2 contradicting compounds x3",
+      "train_MAE_before": 0.3114,
+      "train_MAE_after": 0.2813
+    },
+    {
+      "generation": 43,
+      "from": "R012",
+      "to": "R013",
+      "reason": "re-weighted 2 contradicting compounds x3",
+      "train_MAE_before": 0.2813,
+      "train_MAE_after": 0.279
+    },
+    {
+      "generation": 47,
+      "from": "R013",
+      "to": "R014",
+      "reason": "re-weighted 2 contradicting compounds x3",
+      "train_MAE_before": 0.279,
+      "train_MAE_after": 0.2764
+    },
+    {
+      "generation": 49,
+      "from": "R014",
+      "to": "R015",
+      "reason": "re-weighted 2 contradicting compounds x3",
+      "train_MAE_before": 0.2764,
+      "train_MAE_after": 0.2474
+    },
+    {
+      "generation": 51,
+      "from": "R015",
+      "to": "R016",
+      "reason": "re-weighted 2 contradicting compounds x3",
+      "train_MAE_before": 0.2474,
+      "train_MAE_after": 0.234
+    }
+  ]
+}
