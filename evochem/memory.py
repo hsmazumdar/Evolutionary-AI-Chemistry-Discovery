@@ -34,7 +34,7 @@ class KnowledgeMemory:
         if extra: r.update(extra)
 
     def save(self, json_path, md_path):
-        with open(json_path, "w") as f: json.dump(self.data, f, indent=2)
+        with open(json_path, "w", encoding="utf-8") as f: json.dump(self.data, f, indent=2)
         d = self.data; L = [f"# Knowledge memory: {d['context']}", "", f"_{d['principle']}_", "",
              f"{len(d['rules'])} rules adopted, {len(d['revision_history'])} revisions.", "",
              "| id | gen | phase | status | nodes | train MAE | rule |", "|---|---|---|---|---|---|---|"]
@@ -51,4 +51,4 @@ class KnowledgeMemory:
         L += ["", "## Revision history", ""]
         for h in d["revision_history"]:
             L.append(f"- gen {h['generation']}: {h['from']} -> {h['to']} ({h['reason']}; train MAE {h['train_MAE_before']} -> {h['train_MAE_after']})")
-        open(md_path, "w").write("\n".join(L) + "\n")
+        open(md_path, "w", encoding="utf-8").write("\n".join(L) + "\n")

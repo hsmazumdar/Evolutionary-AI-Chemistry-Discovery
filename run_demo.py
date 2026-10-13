@@ -190,5 +190,5 @@ L += ["", "## Periodicity teaser", "", f"{len(vocab)} elements, {n_used} experim
       "| embedding | ARI | ARI random (mean / 95th pct) | p | nearest neighbour in same group | random |", "|---|---|---|---|---|---|"]
 for k, v in per.items():
     L.append(f"| {k} | {v['ARI']:.3f} | {v['ARI_null_mean']:.3f} / {v['ARI_null_p95']:.3f} | {v['p_value']:.3f} | {v['nn_same_group']:.2f} | {v['nn_same_group_null']:.2f} |")
-open(os.path.join(R, "RESULTS.md"), "w").write("\n".join(L) + "\n")
+open(os.path.join(R, "RESULTS.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
 log("done; see results/RESULTS.md")

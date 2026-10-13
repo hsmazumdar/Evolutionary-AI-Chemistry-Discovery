@@ -135,7 +135,7 @@ class App(tk.Tk):
         self.say(f"Best evolved rule ({len(gp.best)} nodes):\n  {gp.to_str()}\n")
         self._save_mem(mem, name); self.q.put(("status", "Stage 1 done."))
     def _save_mem(self, mem, name):
-        p = os.path.join(R, f"gui_memory_{name}"); mem.save(p + ".json", p + ".md"); self.q.put(("mem", open(p + ".md").read()))
+        p = os.path.join(R, f"gui_memory_{name}"); mem.save(p + ".json", p + ".md"); self.q.put(("mem", open(p + ".md", encoding="utf-8").read()))
     def _need(self):
         if "gp" not in self.state or self.state["split"] != self.split.get() or self.state["ox"] != self.ox.get():
             self._evolve()
