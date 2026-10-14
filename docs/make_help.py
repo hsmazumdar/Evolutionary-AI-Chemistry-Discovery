@@ -17,7 +17,7 @@ def table(rows):
     for r in rows: mono("  ".join(f"{c:<{w}}" for c, w in zip(r, [44, 16, 16, 16, 16, 16])))
 
 h1("EvolutionaryChemistry: Help")
-p("Demo for prospective PhD scholars. Author: Himanshu Mazumdar, R&D Centre, Dharmsinh Desai University, Nadiad, Gujarat.")
+p("Demo for prospective PhD scholars. Conceived and directed by Himanshu Mazumdar, R&D Centre, Dharmsinh Desai University. Code developed with AI assistance.")
 
 h1("1. Objective")
 p("The research question is whether a simple, evolving learning system can build its own knowledge from real scientific data "
@@ -80,7 +80,8 @@ bl("Only 91 compounds: no 3- or 4-element system in Materials Project has 100 or
 bl("Evolution here is classical GP plus a memory log. Evolving the learning strategy itself is future work.")
 
 h1("4. About")
-p("EvolutionaryChemistry POC-1 demo. Prof. Himanshu Mazumdar, R&D Centre, Dharmsinh Desai University, Nadiad, Gujarat, India.")
+p("EvolutionaryChemistry POC-1 demo. Conceived and directed by Himanshu Mazumdar, R&D Centre, Dharmsinh Desai University, Nadiad, Gujarat, India.")
+p("Code developed with AI assistance.")
 p("Code: MIT licence. Data: Materials Project (CC-BY-4.0) and mendeleev (MIT). See DATA_CREDITS.md.")
 
 hdr = (r"{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss Segoe UI;}{\f1\fmodern Consolas;}}"

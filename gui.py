@@ -42,7 +42,8 @@ class Data:
         if self.cands is None: self.cands = CandidateSpace(EL, self.el, MAXTOT)
         return self.cands
 
-AUTHOR = "Himanshu Mazumdar, R&D Centre, Dharmsinh Desai University"
+AUTHOR = "Conceived and directed by Himanshu Mazumdar, R&D Centre, Dharmsinh Desai University"
+AI_NOTE = "Code developed with AI assistance"
 PAL = dict(bg="#F4F7FB", panel="#E8F0FA", banner="#D6E6F5", btn="#DDEBF7", btn_hover="#C5DDF2", stage="#E3F4E8",
            stage_hover="#CBEBD5", warm="#FCEBD9", warm_hover="#F8D9B8", help="#EEE3F7", help_hover="#DECBF0", text="#1F2D3D")
 UI = ("Segoe UI", 10) if sys.platform.startswith("win") else ("DejaVu Sans", 10)
@@ -97,13 +98,14 @@ def style_app(root):
 
 class App(tk.Tk):
     def __init__(self):
-        super().__init__(); self.title(f"EvolutionaryChemistry demo  |  {AUTHOR}")
+        super().__init__(); self.title("Evolutionary Chemistry Demo - concept: Himanshu Mazumdar")
         self.geometry("1320x840"); self.q = queue.Queue(); self.busy = False; self.state = {}
         style_app(self); self.status = tk.StringVar(value="Loading data ...")
         ban = ttk.Frame(self, style="Banner.TFrame", padding=(12, 8)); ban.pack(side="top", fill="x")
         tb = ttk.Frame(ban, style="Banner.TFrame"); tb.pack(side="left", fill="x", expand=True)
         ttk.Label(tb, text="EvolutionaryChemistry: evolutionary knowledge discovery on real inorganic data (Fe-Na-O-P)", style="Banner.TLabel").pack(anchor="w")
         ttk.Label(tb, text=AUTHOR, style="Author.TLabel").pack(anchor="w")
+        ttk.Label(tb, text=AI_NOTE, style="Author.TLabel").pack(anchor="w")
         ttk.Button(ban, text="Help", style="Help.TButton", command=self.open_help).pack(side="right")
         left = ttk.Frame(self, padding=10, style="Panel.TFrame"); left.pack(side="left", fill="y")
         ttk.Label(left, text="Experiment / split", style="Head.TLabel").pack(anchor="w")
@@ -198,7 +200,7 @@ class App(tk.Tk):
     def _load(self):
         self.d = Data(); self.q.put(("splits", list(self.d.splits)))
         self.q.put(("status", f"Ready: {len(self.d.df)} experimentally observed Fe-Na-O-P formulas, {self.d.X.shape[1]} element-attribute features."))
-        self.say(f"EvolutionaryChemistry demo by {AUTHOR}. Data loaded from ./data (Materials Project CC-BY-4.0, mendeleev MIT).\n")
+        self.say(f"EvolutionaryChemistry demo. {AUTHOR}. {AI_NOTE}. Data loaded from ./data (Materials Project CC-BY-4.0, mendeleev MIT).\n")
     def _split(self):
         sp = self.d.splits[self.split.get()]; return np.array(sp["train"]), np.array(sp["test"]), int(sp.get("seed", 0))
     def _XF(self): return (self.d.Xo, self.d.fno) if self.ox.get() else (self.d.X, self.d.fn)

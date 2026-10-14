@@ -4,7 +4,8 @@ A small, runnable demonstration for prospective PhD scholars joining the researc
 **evolutionary AI and autonomous scientific discovery** at the R&D Centre, Dharmsinh Desai University, Nadiad
 (Himanshu Mazumdar).
 
-**Author:** Himanshu Mazumdar, R&D Centre, Dharmsinh Desai University, Nadiad, Gujarat, India.
+**Conceived and directed by Himanshu Mazumdar, R&D Centre, Dharmsinh Desai University.**  
+Code developed with AI assistance.
 
 > *Can an artificial learning system progressively develop its own knowledge through observation, statistical analysis,
 > reasoning, contradiction and evolution, instead of only reproducing existing human knowledge?*
