@@ -1,0 +1,15 @@
+family,method,hits@10,hits@25,hits@50,hits@100,hits@200,hits@500,hits@1000,median_rank,n_hidden_in_space,random@100
+group_heldout,PU(ox) restricted to analogy templates,0.0,0.0,0.0,0.0,0.0,0.0,2.2,1726.3,16.2,0.039
+group_heldout,PU_bagging_RF (element attributes only),0.0,0.0,0.4,0.4,2.0,4.8,7.4,1126.2,16.2,0.039
+group_heldout,PU_bagging_RF + RF energy above training hull,0.0,0.0,0.4,1.0,2.8,5.8,8.4,850.4,16.2,0.039
+group_heldout,PU_bagging_RF + ox. features (prior),0.2,0.2,0.8,1.6,3.6,6.0,8.2,909.1,16.2,0.039
+group_heldout,V03 analogy ranked by GP_ox+hull (recomputed),0.0,0.0,0.0,0.0,0.0,0.0,0.4,27701.0,16.2,0.039
+group_heldout,charge_balance_only (ox. prior),0.0,0.0,0.0,0.0,0.0,1.8,4.0,6064.3,16.2,0.039
+group_heldout,random,0.0,0.0,0.0,0.0,0.2,0.2,0.2,17377.2,16.2,0.039
+random_60_40,PU(ox) restricted to analogy templates,1.2,1.8,2.8,5.9,7.2,7.3,13.6,1204.95,32.7,0.079
+random_60_40,PU_bagging_RF (element attributes only),0.1,0.4,1.0,1.6,2.9,8.4,13.7,1549.45,32.7,0.079
+random_60_40,PU_bagging_RF + RF energy above training hull,0.1,0.3,0.8,2.4,4.1,9.7,16.2,1109.85,32.7,0.079
+random_60_40,PU_bagging_RF + ox. features (prior),0.6,1.1,1.8,3.3,5.0,10.7,15.9,1072.1,32.7,0.079
+random_60_40,V03 analogy ranked by GP_ox+hull (recomputed),0.8,1.1,1.4,1.9,2.8,6.0,7.8,18148.45,32.7,0.079
+random_60_40,charge_balance_only (ox. prior),0.0,0.1,0.4,0.5,1.2,3.8,7.8,4879.85,32.7,0.079
+random_60_40,random,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17015.2,32.7,0.079
