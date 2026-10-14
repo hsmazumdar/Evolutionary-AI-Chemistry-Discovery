@@ -1,0 +1,9 @@
+target,model,MAE,CI_lo,CI_hi
+measured_band_gap_eV,GP,0.9421,0.8994,0.9847
+measured_band_gap_eV,RF,0.5432,0.5187,0.5673
+measured_band_gap_eV,mean,1.2004,1.1634,1.2275
+measured_band_gap_eV,ridge,0.9085,0.8785,0.9342
+measured_formation_enthalpy_eV_per_atom,GP,0.3231,0.2999,0.345
+measured_formation_enthalpy_eV_per_atom,RF,0.1918,0.1816,0.2004
+measured_formation_enthalpy_eV_per_atom,mean,0.77,0.7403,0.794
+measured_formation_enthalpy_eV_per_atom,ridge,0.3161,0.3084,0.3226

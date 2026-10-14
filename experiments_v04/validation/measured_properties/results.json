@@ -1,0 +1,82 @@
+{
+ "cross_target": {
+  "n_measured_in_FeNaOP": 14,
+  "n_matched_to_MP_formula": 13,
+  "MAE_MP_DFT_vs_measured_matched": 0.08019057217137021,
+  "MAE_ridge_trainedOnDFT_vs_measured": 0.1796572257768545,
+  "MAE_GP_trainedOnDFT_vs_measured_mean_over_seeds": 0.295458827223624,
+  "note": "Models trained on ALL 91 DFT values incl. these formulas; this measures DFT->experiment target mismatch, not generalisation."
+ },
+ "paired": {
+  "measured_band_gap_eV": {
+   "GP - ridge": {
+    "mean_diff": 0.033531854593099354,
+    "ci_lo": 0.014625556982232312,
+    "ci_hi": 0.052438152203966394,
+    "wilcoxon_p": 0.0625,
+    "cohen_dz": 1.348217902997036,
+    "n": 5,
+    "a_better": 0,
+    "b_better": 5
+   },
+   "GP - RF": {
+    "mean_diff": 0.3988880352104984,
+    "ci_lo": 0.36982749677357296,
+    "ci_hi": 0.4279485736474239,
+    "wilcoxon_p": 0.0625,
+    "cohen_dz": 10.409871261851919,
+    "n": 5,
+    "a_better": 0,
+    "b_better": 5
+   },
+   "GP - mean": {
+    "mean_diff": -0.25831126057521103,
+    "ci_lo": -0.28073874602902366,
+    "ci_hi": -0.23588377512139846,
+    "wilcoxon_p": 0.0625,
+    "cohen_dz": -9.172957056321035,
+    "n": 5,
+    "a_better": 5,
+    "b_better": 0
+   }
+  },
+  "measured_formation_enthalpy_eV_per_atom": {
+   "GP - ridge": {
+    "mean_diff": 0.007009675308727615,
+    "ci_lo": -0.01207772903745894,
+    "ci_hi": 0.02501926465967912,
+    "wilcoxon_p": 0.625,
+    "cohen_dz": 0.2950038654158998,
+    "n": 5,
+    "a_better": 2,
+    "b_better": 3
+   },
+   "GP - RF": {
+    "mean_diff": 0.13127845240768352,
+    "ci_lo": 0.11540311268742447,
+    "ci_hi": 0.1468802902264281,
+    "wilcoxon_p": 0.0625,
+    "cohen_dz": 6.591194178279053,
+    "n": 5,
+    "a_better": 0,
+    "b_better": 5
+   },
+   "GP - mean": {
+    "mean_diff": -0.4469354241043141,
+    "ci_lo": -0.46983352532308525,
+    "ci_hi": -0.41953982136384865,
+    "wilcoxon_p": 0.0625,
+    "cohen_dz": -13.78614804791671,
+    "n": 5,
+    "a_better": 5,
+    "b_better": 0
+   }
+  }
+ },
+ "n": {
+  "enthalpy": 2010,
+  "gap": 4492,
+  "enthalpy_with_uncertainty": 1726,
+  "median_reported_uncertainty": 0.0187
+ }
+}
