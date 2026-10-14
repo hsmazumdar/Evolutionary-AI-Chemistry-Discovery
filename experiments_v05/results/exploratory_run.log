@@ -1,0 +1,22 @@
+                              recall@100  recall@1000    MRR
+method                                                      
+EHP top-1 hypothesis               0.029        0.309  0.002
+EHP (as H1)                        0.036        0.332  0.002
+EHP uniform weights                0.036        0.330  0.002
+EHP 3x generations                 0.040        0.328  0.003
+EHP 3x bags                        0.052        0.333  0.003
+PU_RF_leaf1                        0.089        0.391  0.014
+template_prior                     0.229        0.563  0.029
+EHP + template (rank mean)         0.231        0.662  0.024
+PU_RF + template (rank mean)       0.256        0.764  0.030
+       system  n_observed  frac_flagged  null_frac_mean  null_frac_p95  perm_p  spearman_pct_vs_dft_ehull_min_eV_atom
+0   Fe-Na-O-P          82         0.000           0.483          0.623   0.048                                  0.193
+1    Ba-O-P-V          89         0.011           0.499          0.618   0.048                                  0.198
+2     K-O-S-V          87         0.011           0.495          0.599   0.048                                  0.206
+3     H-N-O-S          85         0.059           0.499          0.612   0.048                                  0.068
+4  Al-Ca-O-Si          65         0.000           0.481          0.573   0.048                                  0.138
+5    K-Mo-O-P          62         0.000           0.492          0.645   0.048                                  0.154
+6    B-H-Na-O          68         0.029           0.504          0.618   0.048                                  0.263
+7   Ba-Fe-O-S          63         0.016           0.496          0.572   0.048                                  0.229
+8   Mn-O-P-Ti          69         0.014           0.499          0.612   0.048                                  0.015
+runtime 348.8387596607208

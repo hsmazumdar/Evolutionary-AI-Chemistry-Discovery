@@ -16,8 +16,10 @@ jobs:
         run: pip install -r experiments_v05/requirements-v05.lock.txt
       - name: Dataset QC
         run: python experiments_v05/scripts/dataset_qc.py
-      - name: Tests (V05 + V04)
-        run: python -m pytest -q experiments_v05/tests experiments_v04/tests
+      - name: Tests V05
+        run: cd experiments_v05 && python -m pytest -q tests
+      - name: Tests V04 (separate process: both folders have a 'shared' package)
+        run: cd experiments_v04 && python -m pytest -q tests
       - name: Smoke-run principal experiments (quick mode)
         run: |
           python experiments_v05/scripts/run_h1_discovery.py --quick
