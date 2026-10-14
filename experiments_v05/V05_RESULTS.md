@@ -85,3 +85,18 @@ top-ranked candidates should be expected to be false. Use: a prioritised list fo
 See `decisive_rf_template/results.md`. RF + pooled template (0.379) vs pooled template alone (0.337) on recall@100: +0.042 [−0.002, +0.085],
 one-sided Wilcoxon p = 0.0645. **This fails the pre-registered success criterion** (p < 0.05 and gain ≥ 0.02). The direction is positive;
 recall@1000 improves exploratorily (+0.081). Pooled templates beat target-only templates again (0.337 vs 0.303).
+
+## Addendum (2026-10-14 evening): pre-registered replication on 20 new systems
+See `replication_rf_template/results.md`.
+
+| | BLEND | TPOOL |
+|---|---|---|
+| recall@100 | 0.430 | 0.407 |
+
+- **Gain:** +0.023, bootstrap 95% CI [−0.008, +0.053].
+- **Test:** one-sided Wilcoxon p = 0.0468; 14 wins, 4 losses, 2 ties.
+- **Verdict:** this **meets the pre-registered rule narrowly**, but the CI includes 0 and d_z = 0.32.
+- **Strict-leakage variant:** +0.031 [+0.002, +0.061].
+- **Exploratory pooling of 29 systems:** +0.029 [+0.004, +0.054].
+- **Overall:** a small, directionally consistent benefit of the learned RF on top of the pooled template prior. The pooled
+  template prior itself (0.407 vs 0.326 for target-only templates) is the main, robust effect.

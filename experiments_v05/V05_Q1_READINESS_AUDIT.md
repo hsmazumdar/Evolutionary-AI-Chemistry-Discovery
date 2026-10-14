@@ -44,3 +44,13 @@ success criterion:** recall@100 gain +0.042 [−0.002, +0.085], p = 0.0645. The 
 rigorous benchmark / negative result: a stoichiometric-template prior pooled across systems is the dominant signal, and learned components
 add at most a small, not yet significant, gain. Verdict unchanged: **not ready as a methods paper.** The next decisive step would be a
 larger pre-registered replication. With d_z ≈ 0.6, about 20+ fresh systems are needed for ~80% power. Protocol E needs real publication dates.
+
+## Addendum (2026-10-14 evening): replication outcome
+- **Result:** the 20-system pre-registered replication met its success rule narrowly: +0.023, p = 0.0468. The bootstrap CI
+  [−0.008, +0.053] includes 0, and the decisive experiment before it failed (p = 0.0645).
+- **Updated answer to Q1/Q10:** EHP still loses decisively. The defensible positive finding is narrow and modest: pooling
+  stoichiometric templates across chemical systems is a strong, robust prior, and a PU random forest adds a small,
+  borderline-significant gain at top-100 and a clear gain at top-500/1000.
+- **Readiness:** this supports a careful benchmark paper with a modest positive result. It is still **not** a methods paper
+  claiming the evolutionary approach works. Reviewers will note the fragile primary p-value.
+- **Next step:** any further confirmation would need a fresh pre-registered set or temporal (Protocol E) validation.
