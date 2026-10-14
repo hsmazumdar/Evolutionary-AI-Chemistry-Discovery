@@ -80,3 +80,8 @@ Fe2Na3O12P4, Fe4Na3O16P3, FeNa2O7P, ... **None of the top 25 has a Materials Pro
 hypotheses only, with no DFT or experimental support in this dataset.** Many fail the V03 charge-balance feature (imbalance ≠ 0).
 The method's best measured hit rate (observed-label precision@100 ≈ 0.06–0.07 in Protocol A) means most
 top-ranked candidates should be expected to be false. Use: a prioritised list for DFT screening, not a synthesis recommendation.
+
+## Addendum (2026-10-14): pre-registered decisive experiment on 9 fresh systems
+See `decisive_rf_template/results.md`. RF + pooled template (0.379) vs pooled template alone (0.337) on recall@100: +0.042 [−0.002, +0.085],
+one-sided Wilcoxon p = 0.0645. **This fails the pre-registered success criterion** (p < 0.05 and gain ≥ 0.02). The direction is positive;
+recall@1000 improves exploratorily (+0.081). Pooled templates beat target-only templates again (0.337 vs 0.303).

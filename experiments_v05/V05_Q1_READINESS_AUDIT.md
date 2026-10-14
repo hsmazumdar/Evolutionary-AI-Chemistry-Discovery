@@ -37,3 +37,10 @@ test of genuine discovery.
 
 Note: the assignment's original list of 10 readiness questions was not available to me verbatim; the questions above
 are my reconstruction of the standard Q1-readiness items.
+
+## Addendum (2026-10-14): decisive experiment outcome
+The smallest decisive experiment was run as pre-registered (9 fresh systems, family-grouped inner validation). **It did not meet the
+success criterion:** recall@100 gain +0.042 [−0.002, +0.085], p = 0.0645. The answer to Q10 stands. Today's defensible contribution is a
+rigorous benchmark / negative result: a stoichiometric-template prior pooled across systems is the dominant signal, and learned components
+add at most a small, not yet significant, gain. Verdict unchanged: **not ready as a methods paper.** The next decisive step would be a
+larger pre-registered replication. With d_z ≈ 0.6, about 20+ fresh systems are needed for ~80% power. Protocol E needs real publication dates.
