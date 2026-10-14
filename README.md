@@ -2,7 +2,9 @@
 
 A small, runnable demonstration for prospective PhD scholars joining the research programme on
 **evolutionary AI and autonomous scientific discovery** at the R&D Centre, Dharmsinh Desai University, Nadiad
-(Prof. Himanshu S. Mazumdar).
+(Himanshu Mazumdar).
+
+**Author:** Himanshu Mazumdar, R&D Centre, Dharmsinh Desai University, Nadiad, Gujarat, India.
 
 > *Can an artificial learning system progressively develop its own knowledge through observation, statistical analysis,
 > reasoning, contradiction and evolution, instead of only reproducing existing human knowledge?*
@@ -27,6 +29,8 @@ python run_demo.py --quick  # 30-second smoke test
 The repository is self-contained. Everything is read from `data/` and nothing is downloaded at run time.
 
 ### The GUI
+The **Help** button (banner and left panel) opens `docs/Help.rtf` (objective, usage, results) in your default RTF viewer and in an in-app window. All panels scroll horizontally and vertically, so figures are shown at full size.
+
 Choose a split, then run the stages one by one:
 1. **Evolve rules (live).** Watch genetic programming evolve an equation generation by generation, against the mean,
    linear and random-forest baselines.
@@ -132,6 +136,7 @@ The knowledge memory is in `results/memory_*.json|md`.
 ```
 run_demo.py         one-command benchmark -> results/
 gui.py              Tkinter GUI;  Launch_Demo.bat  Windows launcher
+docs/Help.rtf       user help (regenerate with python docs/make_help.py)
 evochem/            features.py  gp.py  hull.py  discovery.py  memory.py  periodicity.py
 data/               all input data (see DATA_CREDITS.md)
 results/            tables, figures, knowledge memory from the last run
