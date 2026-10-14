@@ -28,7 +28,7 @@ data was built, or anything was run.
 - **Decisive experiment:** the earlier 9-system decisive experiment failed the same rule (p = 0.0645).
 
 **Honest summary:** adding a PU random forest to the pooled template prior gives a small positive recall@100 gain (about
-+0.02 to +0.04). It is consistent in direction (positive in 2 of 2 studies, 34 of 45 non-tied systems) but borderline in
++0.02 to +0.04). It is consistent in direction (positive in 2 of 2 studies, 20 of 27 non-tied systems across the two studies) but borderline in
 significance. The gain is larger and robust deeper in the ranking (recall@500 and recall@1000, exploratory). The template
 prior remains the dominant signal.
 
