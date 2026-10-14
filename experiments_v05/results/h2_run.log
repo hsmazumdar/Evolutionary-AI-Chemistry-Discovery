@@ -1,0 +1,10 @@
+                              recall@100  recall@1000    MRR
+method                                                      
+EHP pooled (source+target)         0.022        0.354  0.002
+EHP target-only                    0.036        0.332  0.002
+PU_RF pooled (source+target)       0.086        0.440  0.014
+PU_RF source-only zero-shot        0.077        0.333  0.011
+PU_RF target-only                  0.089        0.391  0.014
+template_prior pooled              0.307        0.623  0.037
+template_prior target-only         0.229        0.563  0.029
+runtime 113.71011734008789

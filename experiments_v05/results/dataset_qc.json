@@ -1,0 +1,106 @@
+{
+ "checks": {
+  "no_carbon": true,
+  "unique_key_per_system": true,
+  "observed_have_icsd": true,
+  "theoretical_have_no_icsd": true,
+  "dft_and_measured_columns_distinct": true,
+  "observed_formulas_shared_by_>1_system": 68
+ },
+ "systems": {
+  "Fe-Na-O-P": {
+   "formulas": 191,
+   "observed": 91,
+   "observed_multi_in_space": 82,
+   "observed_outside_space_or_unary": 9,
+   "polymorph_observed_mean": 1.88,
+   "max_polymorphs": 30,
+   "with_measured_dHf": 13,
+   "mean_abs_DFT_minus_measured": 0.08
+  },
+  "Ba-O-P-V": {
+   "formulas": 153,
+   "observed": 97,
+   "observed_multi_in_space": 89,
+   "observed_outside_space_or_unary": 8,
+   "polymorph_observed_mean": 1.9,
+   "max_polymorphs": 62,
+   "with_measured_dHf": 8,
+   "mean_abs_DFT_minus_measured": 0.068
+  },
+  "K-O-S-V": {
+   "formulas": 132,
+   "observed": 94,
+   "observed_multi_in_space": 87,
+   "observed_outside_space_or_unary": 7,
+   "polymorph_observed_mean": 1.99,
+   "max_polymorphs": 62,
+   "with_measured_dHf": 9,
+   "mean_abs_DFT_minus_measured": 0.051
+  },
+  "H-N-O-S": {
+   "formulas": 109,
+   "observed": 92,
+   "observed_multi_in_space": 85,
+   "observed_outside_space_or_unary": 7,
+   "polymorph_observed_mean": 2.23,
+   "max_polymorphs": 32,
+   "with_measured_dHf": 0,
+   "mean_abs_DFT_minus_measured": null
+  },
+  "Al-Ca-O-Si": {
+   "formulas": 140,
+   "observed": 79,
+   "observed_multi_in_space": 65,
+   "observed_outside_space_or_unary": 14,
+   "polymorph_observed_mean": 3.3,
+   "max_polymorphs": 321,
+   "with_measured_dHf": 13,
+   "mean_abs_DFT_minus_measured": 0.077
+  },
+  "K-Mo-O-P": {
+   "formulas": 126,
+   "observed": 77,
+   "observed_multi_in_space": 62,
+   "observed_outside_space_or_unary": 15,
+   "polymorph_observed_mean": 1.78,
+   "max_polymorphs": 28,
+   "with_measured_dHf": 9,
+   "mean_abs_DFT_minus_measured": 0.037
+  },
+  "B-H-Na-O": {
+   "formulas": 96,
+   "observed": 76,
+   "observed_multi_in_space": 68,
+   "observed_outside_space_or_unary": 8,
+   "polymorph_observed_mean": 1.88,
+   "max_polymorphs": 28,
+   "with_measured_dHf": 13,
+   "mean_abs_DFT_minus_measured": 0.084
+  },
+  "Ba-Fe-O-S": {
+   "formulas": 132,
+   "observed": 75,
+   "observed_multi_in_space": 63,
+   "observed_outside_space_or_unary": 12,
+   "polymorph_observed_mean": 2.25,
+   "max_polymorphs": 32,
+   "with_measured_dHf": 10,
+   "mean_abs_DFT_minus_measured": 0.137
+  },
+  "Mn-O-P-Ti": {
+   "formulas": 171,
+   "observed": 75,
+   "observed_multi_in_space": 69,
+   "observed_outside_space_or_unary": 6,
+   "polymorph_observed_mean": 1.95,
+   "max_polymorphs": 46,
+   "with_measured_dHf": 14,
+   "mean_abs_DFT_minus_measured": 0.124
+  }
+ },
+ "dft_vs_measured_unique_formulas": {
+  "n": 71,
+  "MAE": 0.0877
+ }
+}

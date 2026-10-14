@@ -1,0 +1,13 @@
+{
+ "rf_bags": 10,
+ "ratio": 5,
+ "src_unl_per_system": 3000,
+ "ehp": {
+  "pop": 200,
+  "gens": 30,
+  "bags": 5,
+  "ratio": 3,
+  "archive_k": 3
+ },
+ "n_splits": 5
+}
