@@ -1,0 +1,16 @@
+{
+ "orders": [
+  0,
+  1,
+  2
+ ],
+ "pop": 200,
+ "gens": 30,
+ "bags": 3,
+ "ratio": 3,
+ "archive_k": 3,
+ "buffer_pos": 60,
+ "buffer_unl": 600,
+ "ensemble_top": 10,
+ "v04_keep": 5
+}

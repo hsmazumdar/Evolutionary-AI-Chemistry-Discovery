@@ -1,0 +1,24 @@
+name: v05-tests
+on:
+  push:
+    branches: [research-v05]
+  pull_request:
+    paths: ["experiments_v05/**", "evochem/**"]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install locked dependencies
+        run: pip install -r experiments_v05/requirements-v05.lock.txt
+      - name: Dataset QC
+        run: python experiments_v05/scripts/dataset_qc.py
+      - name: Tests (V05 + V04)
+        run: python -m pytest -q experiments_v05/tests experiments_v04/tests
+      - name: Smoke-run principal experiments (quick mode)
+        run: |
+          python experiments_v05/scripts/run_h1_discovery.py --quick
+          python experiments_v05/scripts/run_h3_memory.py --quick

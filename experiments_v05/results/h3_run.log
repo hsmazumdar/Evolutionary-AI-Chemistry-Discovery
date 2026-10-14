@@ -1,0 +1,17 @@
+arm
+V04_archive                  0.045
+full_data_retrain            0.022
+proposed_versioned_memory    0.042
+replay                       0.039
+scratch                      0.045
+sequential_finetune          0.051
+Name: recall@100, dtype: float64
+arm
+V04_archive                  0.060
+full_data_retrain            0.026
+proposed_versioned_memory    0.040
+replay                       0.045
+scratch                      0.039
+sequential_finetune          0.047
+Name: recall@100, dtype: float64
+runtime 35.56738805770874

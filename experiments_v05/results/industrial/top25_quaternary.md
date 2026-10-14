@@ -1,0 +1,27 @@
+|   rank |   rank_within_quaternary | formula     |   rank_template |   rank_PU_RF |   V03_charge_imbalance_feature | in_MP_computed   | mp_ids   |   dft_ehull_min_eV_atom |   dft_Ef_min_eV_atom |
+|-------:|-------------------------:|:------------|----------------:|-------------:|-------------------------------:|:-----------------|:---------|------------------------:|---------------------:|
+|     86 |                        1 | Fe3Na3O12P2 |             115 |         1595 |                          0.100 | False            |          |                     nan |                  nan |
+|    119 |                        2 | Fe3Na4O16P3 |            1143 |          846 |                          0.154 | False            |          |                     nan |                  nan |
+|    123 |                        3 | FeNaO5P     |            1246 |          820 |                          0.125 | False            |          |                     nan |                  nan |
+|    129 |                        4 | Fe2Na3O12P4 |            1047 |         1134 |                          0.143 | False            |          |                     nan |                  nan |
+|    154 |                        5 | Fe4Na3O16P3 |            1143 |         1249 |                          0.077 | False            |          |                     nan |                  nan |
+|    180 |                        6 | FeNa2O7P    |             435 |         2146 |                          0.364 | False            |          |                     nan |                  nan |
+|    197 |                        7 | FeNa2O6P    |            1420 |         1261 |                          0.200 | False            |          |                     nan |                  nan |
+|    201 |                        8 | FeNa2O8P3   |             627 |         2200 |                          0.143 | False            |          |                     nan |                  nan |
+|    221 |                        9 | FeNaO5P2    |             303 |         2696 |                          0.000 | False            |          |                     nan |                  nan |
+|    223 |                       10 | Fe3Na3O12P  |            1011 |         2018 |                          0.368 | False            |          |                     nan |                  nan |
+|    226 |                       11 | FeNaO6P     |            1304 |         1722 |                          0.333 | False            |          |                     nan |                  nan |
+|    249 |                       12 | FeNa2O6P2   |            1596 |         1555 |                          0.091 | False            |          |                     nan |                  nan |
+|    252 |                       13 | FeNa2O7P2   |            1860 |         1117 |                          0.000 | False            |          |                     nan |                  nan |
+|    294 |                       14 | FeNa3O12P3  |            1011 |         2435 |                          0.158 | False            |          |                     nan |                  nan |
+|    300 |                       15 | Fe4Na4O15P3 |            1143 |         2336 |                          0.038 | False            |          |                     nan |                  nan |
+|    345 |                       16 | Fe2Na3O8P   |             627 |         3167 |                          0.143 | False            |          |                     nan |                  nan |
+|    353 |                       17 | FeNaO6P2    |            1420 |         2404 |                          0.100 | False            |          |                     nan |                  nan |
+|    358 |                       18 | Fe3Na4O12P2 |            1047 |         2824 |                          0.048 | False            |          |                     nan |                  nan |
+|    387 |                       19 | Fe2Na2O8P   |            2170 |         1749 |                          0.231 | False            |          |                     nan |                  nan |
+|    393 |                       20 | FeNa2O7P3   |            2170 |         1901 |                          0.000 | False            |          |                     nan |                  nan |
+|    394 |                       21 | Fe2Na2O9P   |            2642 |         1277 |                          0.357 | False            |          |                     nan |                  nan |
+|    396 |                       22 | FeNa2O8P2   |            2170 |         1693 |                          0.077 | False            |          |                     nan |                  nan |
+|    398 |                       23 | Fe4Na3O15P4 |            1143 |         3092 |                          0.038 | False            |          |                     nan |                  nan |
+|    422 |                       24 | Fe2NaO8P3   |             627 |         3749 |                          0.000 | False            |          |                     nan |                  nan |
+|    425 |                       25 | FeNa2O8P    |            1860 |         2336 |                          0.500 | False            |          |                     nan |                  nan |

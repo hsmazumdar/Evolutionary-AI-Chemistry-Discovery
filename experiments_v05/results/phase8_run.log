@@ -1,0 +1,10 @@
+model
+random_forest                   0.418
+Roost (matscholar embedding)    0.423
+gradient_boosting               0.433
+PySR                            0.484
+V03_GP                          0.501
+ridge                           0.595
+mean                            0.860
+Name: MAE, dtype: float64
+runtime 408.6938805580139
