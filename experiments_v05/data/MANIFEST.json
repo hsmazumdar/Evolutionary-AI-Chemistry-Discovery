@@ -1,0 +1,85 @@
+{
+ "source_mp": "mp_inorganic_all.csv.gz",
+ "source_mp_sha256": "20b221933a314aeee1113b789985e055db7a744b373c3d9c63bd62d00988f7c3",
+ "mp_snapshot": "Materials Project summary 2025-09-25 (AWS OpenData, CC-BY-4.0), DFT GGA/GGA+U/r2SCAN mixing",
+ "systems": {
+  "Fe-Na-O-P": {
+   "n_formulas": 191,
+   "n_observed": 91,
+   "n_theoretical_only": 100,
+   "n_with_measured_dHf": 13,
+   "n_observed_quaternary": 11,
+   "entries_sha256": "1a87d3cb5bdab7e19487f78f8fe85642839151b1d8c80a60bccc43a07356df26"
+  },
+  "Ba-O-P-V": {
+   "n_formulas": 153,
+   "n_observed": 97,
+   "n_theoretical_only": 56,
+   "n_with_measured_dHf": 8,
+   "n_observed_quaternary": 8,
+   "entries_sha256": "6bf8a16338a801a61ffb0e1dc682ae26278f904768386f797f898d26822d51d5"
+  },
+  "K-O-S-V": {
+   "n_formulas": 132,
+   "n_observed": 94,
+   "n_theoretical_only": 38,
+   "n_with_measured_dHf": 9,
+   "n_observed_quaternary": 10,
+   "entries_sha256": "e5598655b4a9e69b140928f8374298bfe5ad3ce1df60c27de35fd93ccdb1427b"
+  },
+  "H-N-O-S": {
+   "n_formulas": 109,
+   "n_observed": 92,
+   "n_theoretical_only": 17,
+   "n_with_measured_dHf": 0,
+   "n_observed_quaternary": 19,
+   "entries_sha256": "0d4a7de2d068be000179af939924b5d99112b804e60d9e1ef4bbe7977b116aaa"
+  },
+  "Al-Ca-O-Si": {
+   "n_formulas": 140,
+   "n_observed": 79,
+   "n_theoretical_only": 61,
+   "n_with_measured_dHf": 13,
+   "n_observed_quaternary": 15,
+   "entries_sha256": "b6c50a71e5739bb4d97c063f976c2116ea12f7a89668813e60ede2f234730b77"
+  },
+  "K-Mo-O-P": {
+   "n_formulas": 126,
+   "n_observed": 77,
+   "n_theoretical_only": 49,
+   "n_with_measured_dHf": 9,
+   "n_observed_quaternary": 11,
+   "entries_sha256": "0d2728025ef412e2b2f5746bcafc5a2ce967d26763d20f848602e53f576972ab"
+  },
+  "B-H-Na-O": {
+   "n_formulas": 96,
+   "n_observed": 76,
+   "n_theoretical_only": 20,
+   "n_with_measured_dHf": 13,
+   "n_observed_quaternary": 21,
+   "entries_sha256": "4a26566b9b94f4a5978edde7c31c50922824a727ffec7d357650881045f40a3d"
+  },
+  "Ba-Fe-O-S": {
+   "n_formulas": 132,
+   "n_observed": 75,
+   "n_theoretical_only": 57,
+   "n_with_measured_dHf": 10,
+   "n_observed_quaternary": 1,
+   "entries_sha256": "ff326d3e41215485eab555fe267ec2c84ca49ab456886f06f0d4b22e2611d630"
+  },
+  "Mn-O-P-Ti": {
+   "n_formulas": 171,
+   "n_observed": 75,
+   "n_theoretical_only": 96,
+   "n_with_measured_dHf": 14,
+   "n_observed_quaternary": 1,
+   "entries_sha256": "55e5947de0ab35e708f2048b87b61418e38a4af40fb4adf0620d70ace82cfe32"
+  }
+ },
+ "source_measured_enthalpy_sha256": "38924ef6ec070620dfbab2116c7552a91da116401686fbd733f24e7206e978fc",
+ "formulas_v05_sha256": "f13a0d47c3a591314f667b11b11e298e9db79505cfa95abf8d421f23827c49c4",
+ "n_formulas": 1250,
+ "n_observed": 756,
+ "n_unique_observed_formulas_across_systems": 658,
+ "publication_dates": "UNAVAILABLE: snapshot has ICSD ids but no ICSD collection/publication dates -> Protocol E not run"
+}

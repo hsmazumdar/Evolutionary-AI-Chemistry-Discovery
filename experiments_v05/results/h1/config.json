@@ -1,0 +1,15 @@
+{
+ "rf_bags": 2,
+ "ratio": 5,
+ "ehp": {
+  "pop": 30,
+  "gens": 3,
+  "bags": 2,
+  "ratio": 3,
+  "archive_k": 2
+ },
+ "protocols": [
+  "A"
+ ],
+ "n_splits": 1
+}

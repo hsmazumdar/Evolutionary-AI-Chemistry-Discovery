@@ -1,0 +1,104 @@
+[
+ {
+  "ehp_time": 0.0800330638885498,
+  "ehp_hyps": [
+   {
+    "rule": "Ef = 0.788 + -1.442 * (range_nval - dev_rA)",
+    "nodes": 3,
+    "conf": 0.3703
+   },
+   {
+    "rule": "Ef = 0.351 + -1.043 * ((range_nval - dev_rA) - dev_rA)",
+    "nodes": 5,
+    "conf": 0.2674
+   },
+   {
+    "rule": "Ef = 1.596 + 0.167 * (-(mean_rCov) * (n_elem + n_elem))",
+    "nodes": 6,
+    "conf": 0.4086
+   },
+   {
+    "rule": "Ef = 1.590 + -0.277 * (mean_rCov * (n_elem + range_rho))",
+    "nodes": 5,
+    "conf": 0.3906
+   }
+  ],
+  "system": "Fe-Na-O-P",
+  "split": "A0",
+  "selected_baseline": "template_prior",
+  "runtime_s": 498.1377513408661,
+  "ehp_top20": [
+   "Fe2O3",
+   "Fe11O17",
+   "Fe9O14",
+   "Fe5O8",
+   "Fe7O11",
+   "Fe8O13",
+   "Fe11O18",
+   "Fe3O5",
+   "Fe10O17",
+   "Fe7O12",
+   "Fe11O16",
+   "Fe9O13",
+   "Fe11O19",
+   "Fe12O17",
+   "Fe5O7",
+   "Fe7O10",
+   "Fe4O7",
+   "Fe9O16",
+   "Fe8O11",
+   "Fe5O9"
+  ]
+ },
+ {
+  "ehp_time": 0.0390932559967041,
+  "ehp_hyps": [
+   {
+    "rule": "Ef = 3.220 + -2.577 * sqrt|mean_rCov|",
+    "nodes": 2,
+    "conf": 0.3076
+   },
+   {
+    "rule": "Ef = 3.220 + -2.577 * sqrt|-(mean_rCov)|",
+    "nodes": 3,
+    "conf": 0.3076
+   },
+   {
+    "rule": "Ef = 1.481 + -0.280 * (n_elem * mean_rCov)",
+    "nodes": 3,
+    "conf": 0.4209
+   },
+   {
+    "rule": "Ef = 1.133 + -0.054 * (n_elem * (n_elem * mean_rCov))",
+    "nodes": 5,
+    "conf": 0.4012
+   }
+  ],
+  "system": "Ba-O-P-V",
+  "split": "A0",
+  "selected_baseline": "PU_RF_ox (prior)",
+  "runtime_s": 499.2093997001648,
+  "ehp_top20": [
+   "O29P",
+   "O28P",
+   "O27P",
+   "O26P",
+   "O25P",
+   "O24P",
+   "O23P",
+   "O22P",
+   "O21P",
+   "O20P",
+   "O29V",
+   "O19P",
+   "O28V",
+   "O18P",
+   "O27V",
+   "O26V",
+   "O17P",
+   "O25V",
+   "O16P",
+   "O24V"
+  ]
+ }
+]
