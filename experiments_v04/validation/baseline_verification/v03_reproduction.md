@@ -1,0 +1,58 @@
+# V03 baseline verification (Stage 1, step a)
+
+Re-run of unchanged V03 code (commit a3b1daa) in a clean worktree; compared with committed `results/`.
+
+| file | result |
+|---|---|
+| RESULTS.md | differs only in lines: 'Runtime: 87 s. GP population 300, 40 generations (+20 contradiction cycle).' vs 'Runtime: 104 s. GP population 300, 40 generations (+20 contradiction cycle).' |
+| contradiction_by_split.csv | byte-identical |
+| discovery_recall_by_split.csv | byte-identical |
+| discovery_top20_seed0_analogy_GPox.json | byte-identical |
+| fig1_learning_curve.png | byte-identical |
+| fig2_parity_seed0.png | byte-identical |
+| fig3_recall_at_k.png | byte-identical |
+| fig4_element_map.png | byte-identical |
+| learning_curves.json | byte-identical |
+| memory_family_heldout.json | identical except 'created' timestamp |
+| memory_family_heldout.md | byte-identical |
+| memory_random_split_seed0.json | identical except 'created' timestamp |
+| memory_random_split_seed0.md | byte-identical |
+| periodicity.json | byte-identical |
+| property_mae_by_split.csv | numeric max |diff| = 3.33e-16; text columns identical = True |
+
+**Verdict:** all V03 numbers reproduced (differences only in runtime/timestamps and floating-point round-off <= 1e-12).
+
+Provenance:
+```json
+{
+ "python": "3.13.5",
+ "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+ "cpu_count": 8,
+ "packages": {
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.1",
+  "matplotlib": "3.11.2",
+  "yaml": "6.0.3"
+ },
+ "git_commit": "a3b1daa1b2efad6946251781ee680c5add573450",
+ "git_dirty": true,
+ "dataset_sha256": {
+  "data/poc_Fe-Na-O-P_expt_formulas.csv": "8bd24321dc588e4beaf12ec4f8a958f00266a544b98c70b68dc1a6e287396e97",
+  "data/elements_118.csv": "b0734ec24d270aef6e3c2b18de518853c95cddc602e1ff93b54a3f572c3c5479",
+  "data/splits_Fe-Na-O-P/group_heldout_quaternary.json": "4ecb108e4ee4fde98bbe6cb7977a694c5fe9d177d4e474cc2d8c6d4e693bc474",
+  "data/splits_Fe-Na-O-P/group_heldout_stoichiometry_family.json": "153a6fbb1ba5f55950de8fe074f4d7af87f779f80a98241a9a7a1188fe64f7af",
+  "data/splits_Fe-Na-O-P/random_split_seed0.json": "6cf733de1706066938cc57c82f2ef7f3383e063b73dfc2867c4d4657673df53a",
+  "data/splits_Fe-Na-O-P/random_split_seed1.json": "1b38229bbffb718b5487f454a41e48e1c3338d4a4d518b378fb562c4a814af95",
+  "data/splits_Fe-Na-O-P/random_split_seed2.json": "219f7e2c1cf28bad89c6a749fe684e0d103f185c24dfb86f4a71256b7bd84489",
+  "data/splits_Fe-Na-O-P/random_split_seed3.json": "026c8e758a2bcdacf4d8b0a58a977368e67343a7b3c96dc381b66910ed6065fb",
+  "data/splits_Fe-Na-O-P/random_split_seed4.json": "90ec6383c7750474d02806cba98aea06a46bb96536b2ac035ddfb4232e9e55d7",
+  "data/splits_Fe-Na-O-P/random_split_seed5.json": "49f3fedb3a3ec50748b7bba5e1888c200ba1f8c91b63015f982dd23771cfb768",
+  "data/splits_Fe-Na-O-P/random_split_seed6.json": "6bd41eebb65ae9c2f54d638510a646e6e66d882a128c94e41d1358c0880a857c",
+  "data/splits_Fe-Na-O-P/random_split_seed7.json": "ff561ed1153bc8e6c28717be823ace1f45db94a66d3729fc56a38019f12b8480",
+  "data/splits_Fe-Na-O-P/random_split_seed8.json": "2ff49d32cdfaab0d6f1bef750cdd25ffd37a70f044e384986e79b5f2a071f043",
+  "data/splits_Fe-Na-O-P/random_split_seed9.json": "26534514e8c8587374bd2df2d3f3848a9de6dfe25147fd422eeb49b76fdc9ab9"
+ }
+}
+```

@@ -1,0 +1,385 @@
+split,evo_seed,model,features,MAE,rule
+random_split_seed0,0,ridge,base+learned_embedding,0.21117950662601304,
+random_split_seed0,0,GP,base+learned_embedding,0.2627488596442368,Ef = -0.073 + -219.122 * ((sqrt|(emb14 - emb12)| * emb16) * sqrt|range_IE|)
+random_split_seed0,0,ridge,base+random_gaussian_embedding,0.20432653205618628,
+random_split_seed0,0,GP,base+random_gaussian_embedding,0.19389054208869066,Ef = -0.177 + -43.598 * ((emb15 + emb23) * emb22)
+random_split_seed0,0,ridge,base+shuffled_elements_embedding,0.2894612503015757,
+random_split_seed0,0,GP,base+shuffled_elements_embedding,0.188712068503818,Ef = 0.024 + -4.106 * (sqrt|(emb14 * (emb16 + n_elem))| * (emb16 + emb13))
+random_split_seed0,0,ridge,base_only,0.1775976688703508,
+random_split_seed0,0,GP,base_only,0.2888110151667542,Ef = 0.612 + 0.626 * (((sqrt|range_nval| / dev_IE) * sqrt|dev_rCov|) - (sqrt|n_elem| / (dev_IE / dev_EN)))
+random_split_seed0,1,ridge,base+learned_embedding,0.21117950662601304,
+random_split_seed0,1,GP,base+learned_embedding,0.18207888929154606,Ef = 0.039 + 379.457 * (emb16 * ((-((range_IE)^2) * emb16) - emb21))
+random_split_seed0,1,ridge,base+random_gaussian_embedding,0.16468003938399256,
+random_split_seed0,1,GP,base+random_gaussian_embedding,0.21707710001748262,Ef = -0.038 + -5.492 * ((emb17 + (mean_IE + (n_elem * emb5))) * ((emb14 + emb17))^2)
+random_split_seed0,1,ridge,base+shuffled_elements_embedding,0.2048555156454781,
+random_split_seed0,1,GP,base+shuffled_elements_embedding,0.3028454110007306,Ef = -0.191 + -384.743 * (dev_rCov * (emb21 * emb11))
+random_split_seed0,1,ridge,base_only,0.1775976688703508,
+random_split_seed0,1,GP,base_only,0.27333546176245416,Ef = -0.093 + -3.187 * (dev_rCov * (sqrt|n_elem| / (mean_rA)^2))
+random_split_seed0,2,ridge,base+learned_embedding,0.21117950662601304,
+random_split_seed0,2,GP,base+learned_embedding,0.23868997557061147,Ef = -0.109 + -147.187 * (mean_EN * (emb19 * emb16))
+random_split_seed0,2,ridge,base+random_gaussian_embedding,0.20112590755332732,
+random_split_seed0,2,GP,base+random_gaussian_embedding,0.1987386149320172,Ef = -0.005 + -25.031 * (sqrt|(((emb3 + 1.24))^2 * (emb13 * range_EN))| * emb17)
+random_split_seed0,2,ridge,base+shuffled_elements_embedding,0.21123363569249579,
+random_split_seed0,2,GP,base+shuffled_elements_embedding,0.18077114443491632,Ef = 0.077 + -8.108 * ((((emb21 * (emb12 - 1.94)) * dev_rCov) / emb0) + emb16)
+random_split_seed0,2,ridge,base_only,0.1775976688703508,
+random_split_seed0,2,GP,base_only,0.26081852584076715,Ef = 0.121 + -0.121 * (((dev_EN * n_elem) + (mean_IE)^2) / (sqrt|range_nval| / n_elem))
+random_split_seed1,0,ridge,base+learned_embedding,0.19164562355443804,
+random_split_seed1,0,GP,base+learned_embedding,0.1884325596053766,Ef = 0.030 + -288.645 * sqrt|(emb16 * ((emb16 * emb21) * sqrt|(range_rCov * emb21)|))|
+random_split_seed1,0,ridge,base+random_gaussian_embedding,0.18898541671242222,
+random_split_seed1,0,GP,base+random_gaussian_embedding,0.19875508862541963,Ef = -0.338 + -63.018 * (emb22 * (sqrt|emb23| * (emb22 + emb21)))
+random_split_seed1,0,ridge,base+shuffled_elements_embedding,0.20766004067814683,
+random_split_seed1,0,GP,base+shuffled_elements_embedding,0.18743450973150985,Ef = -0.186 + -122.247 * ((emb16 * emb14) * sqrt|((emb14 - emb23) - ((emb14 - emb23) / n_elem))|)
+random_split_seed1,0,ridge,base_only,0.17091814859065124,
+random_split_seed1,0,GP,base_only,0.28204046315842085,Ef = -0.173 + -0.143 * (dev_EN / ((dev_nval / dev_EN) / (((dev_EN + n_elem) - range_rho) - range_rA)))
+random_split_seed1,1,ridge,base+learned_embedding,0.19164562355443804,
+random_split_seed1,1,GP,base+learned_embedding,0.2260599214246393,Ef = -0.112 + -148.556 * (emb19 * (emb16 * mean_EN))
+random_split_seed1,1,ridge,base+random_gaussian_embedding,0.17640599944241675,
+random_split_seed1,1,GP,base+random_gaussian_embedding,0.1742104225586084,Ef = -0.189 + -62.720 * (mean_IE * (emb17 * (dev_rCov * sqrt|emb13|)))
+random_split_seed1,1,ridge,base+shuffled_elements_embedding,0.176029539801273,
+random_split_seed1,1,GP,base+shuffled_elements_embedding,0.2849035578639204,Ef = -1.547 + -1.608 * ((-(mean_rCov) + dev_EN) + ((((n_elem + mean_IE) + n_elem) * emb20) - emb18))
+random_split_seed1,1,ridge,base_only,0.17091814859065124,
+random_split_seed1,1,GP,base_only,0.30314832554364696,Ef = 2.078 + 0.673 * (-((dev_EN + (mean_EN + n_elem))) + range_nval)
+random_split_seed1,2,ridge,base+learned_embedding,0.19164562355443804,
+random_split_seed1,2,GP,base+learned_embedding,0.16247925777417827,Ef = -0.082 + -1191.773 * (((sqrt|range_EN| * emb16) + emb21) * ((emb3 + emb21) * emb16))
+random_split_seed1,2,ridge,base+random_gaussian_embedding,0.18498887584841167,
+random_split_seed1,2,GP,base+random_gaussian_embedding,0.22337279644028765,Ef = 0.118 + -4.248 * ((emb18 * ((sqrt|emb17| * range_EN) + emb18)) + emb17)
+random_split_seed1,2,ridge,base+shuffled_elements_embedding,0.18327594952914555,
+random_split_seed1,2,GP,base+shuffled_elements_embedding,0.26965090114559254,Ef = 0.155 + -4.130 * (emb21 - -((1.89 * ((dev_rCov - emb12) / mean_rCov))))
+random_split_seed1,2,ridge,base_only,0.17091814859065124,
+random_split_seed1,2,GP,base_only,0.2487746883224766,Ef = 1.482 + -1.439 * sqrt|(((n_elem + -1.05) + (dev_EN / (range_IE / n_elem))) / mean_rA)|
+random_split_seed2,0,ridge,base+learned_embedding,0.191756799760743,
+random_split_seed2,0,GP,base+learned_embedding,0.2265666517220289,Ef = -0.089 + -326.748 * sqrt|(emb16 * (((emb16 * emb4) * n_elem) * emb21))|
+random_split_seed2,0,ridge,base+random_gaussian_embedding,0.31872935840251626,
+random_split_seed2,0,GP,base+random_gaussian_embedding,0.31238598259354894,Ef = -0.307 + -1.771 * (mean_EN * (emb22 * (((emb4 / n_elem) - (-0.5 - emb11)) * n_elem)))
+random_split_seed2,0,ridge,base+shuffled_elements_embedding,0.20557950072713838,
+random_split_seed2,0,GP,base+shuffled_elements_embedding,0.25687270659772005,Ef = -0.105 + -3.952 * ((sqrt|(-1.3 + range_IE)| * n_elem) * emb14)
+random_split_seed2,0,ridge,base_only,0.20149181038171818,
+random_split_seed2,0,GP,base_only,0.3433141449582931,Ef = 3.610 + -0.849 * ((n_elem + ((mean_rA + (dev_EN + mean_EN)) - range_nval)) - range_nval)
+random_split_seed2,1,ridge,base+learned_embedding,0.191756799760743,
+random_split_seed2,1,GP,base+learned_embedding,0.3925524449788752,Ef = 2.161 + -0.665 * (mean_EN + (((n_elem - range_nval) + emb21) + dev_EN))
+random_split_seed2,1,ridge,base+random_gaussian_embedding,0.19581988206313147,
+random_split_seed2,1,GP,base+random_gaussian_embedding,0.39741662391661264,Ef = 2.202 + -0.684 * (dev_EN - (range_nval - (mean_EN + n_elem)))
+random_split_seed2,1,ridge,base+shuffled_elements_embedding,0.17379567778895216,
+random_split_seed2,1,GP,base+shuffled_elements_embedding,0.4300360450863634,Ef = 1.678 + -0.605 * (emb9 + ((mean_EN + n_elem) + emb9))
+random_split_seed2,1,ridge,base_only,0.20149181038171818,
+random_split_seed2,1,GP,base_only,0.4581969761053882,Ef = 5.626 + -3.094 * sqrt|((mean_EN + dev_rCov) + n_elem)|
+random_split_seed2,2,ridge,base+learned_embedding,0.191756799760743,
+random_split_seed2,2,GP,base+learned_embedding,0.34085587182374044,Ef = -0.127 + -5.405 * ((emb19 * (emb9 - (range_rCov - n_elem))) / mean_rA)
+random_split_seed2,2,ridge,base+random_gaussian_embedding,0.2541809234362671,
+random_split_seed2,2,GP,base+random_gaussian_embedding,0.3929562025132111,Ef = 3.274 + -1.560 * ((emb17 + (sqrt|mean_EN| + sqrt|n_elem|)) - sqrt|emb11|)
+random_split_seed2,2,ridge,base+shuffled_elements_embedding,0.2038359534004335,
+random_split_seed2,2,GP,base+shuffled_elements_embedding,0.4078424869069516,Ef = 1.700 + 0.780 * ((-(n_elem) + emb2) + ((emb2 - ((-0.37 * range_rA) * (range_IE / dev_rA))) - mean_EN))
+random_split_seed2,2,ridge,base_only,0.20149181038171818,
+random_split_seed2,2,GP,base_only,0.36832134216781554,Ef = 0.521 + -0.281 * ((mean_mass + (dev_EN + (sqrt|n_elem| / mean_rA))))^2
+random_split_seed3,0,ridge,base+learned_embedding,0.2223912948534426,
+random_split_seed3,0,GP,base+learned_embedding,0.2189061632048394,Ef = 0.021 + -195.820 * (sqrt|(emb21 * sqrt|(emb21 * n_elem)|)| * emb16)
+random_split_seed3,0,ridge,base+random_gaussian_embedding,0.22937673273110853,
+random_split_seed3,0,GP,base+random_gaussian_embedding,0.2302011066630435,Ef = -0.128 + -25.342 * ((sqrt|sqrt|emb23|| * sqrt|sqrt|emb21||) * emb22)
+random_split_seed3,0,ridge,base+shuffled_elements_embedding,0.23685029719856368,
+random_split_seed3,0,GP,base+shuffled_elements_embedding,0.28336283980209914,Ef = 0.056 + -9.061 * sqrt|((emb16 * emb0) * emb19)|
+random_split_seed3,0,ridge,base_only,0.22444036723092065,
+random_split_seed3,0,GP,base_only,0.2627559326675732,Ef = 0.582 + -0.274 * ((dev_rho / dev_EN) - (((range_nval - dev_EN) - (n_elem - range_nval)) / (dev_IE / dev_EN)))
+random_split_seed3,1,ridge,base+learned_embedding,0.2223912948534426,
+random_split_seed3,1,GP,base+learned_embedding,0.23931115500142988,Ef = -0.047 + -159.146 * (emb16 / (sqrt|emb0| / emb21))
+random_split_seed3,1,ridge,base+random_gaussian_embedding,0.19578677038694192,
+random_split_seed3,1,GP,base+random_gaussian_embedding,0.1937404406699295,Ef = -0.044 + -35.217 * (sqrt|(mean_IE * (emb17 * dev_rCov))| * sqrt|(emb19 * emb13)|)
+random_split_seed3,1,ridge,base+shuffled_elements_embedding,0.2285933635500529,
+random_split_seed3,1,GP,base+shuffled_elements_embedding,0.32939154994907427,Ef = 0.051 + -17.599 * sqrt|((emb15 * emb11) * n_elem)|
+random_split_seed3,1,ridge,base_only,0.22444036723092065,
+random_split_seed3,1,GP,base_only,0.2987238041400795,Ef = 0.080 + -2.515 * sqrt|(dev_rCov * ((n_elem - range_rA) / (mean_rA)^2))|
+random_split_seed3,2,ridge,base+learned_embedding,0.2223912948534426,
+random_split_seed3,2,GP,base+learned_embedding,0.20653685611992212,Ef = -0.126 + 173.429 * ((emb21 * (sqrt|emb21| * emb16)) / emb0)
+random_split_seed3,2,ridge,base+random_gaussian_embedding,0.19735664540794357,
+random_split_seed3,2,GP,base+random_gaussian_embedding,0.2134026596064462,Ef = 0.110 + -33.536 * sqrt|(emb17 * (emb13 * dev_rCov))|
+random_split_seed3,2,ridge,base+shuffled_elements_embedding,0.22067148867437023,
+random_split_seed3,2,GP,base+shuffled_elements_embedding,0.23679408118814957,Ef = -0.049 + -38.244 * (emb16 * (sqrt|emb21| - -((emb16 - emb10))))
+random_split_seed3,2,ridge,base_only,0.22444036723092065,
+random_split_seed3,2,GP,base_only,0.3030365497436492,Ef = 0.433 + -0.407 * ((dev_EN + (dev_EN + (dev_EN + n_elem))) / mean_rA)
+random_split_seed4,0,ridge,base+learned_embedding,0.1913067852359478,
+random_split_seed4,0,GP,base+learned_embedding,0.24215658737774812,Ef = -0.076 + -353.295 * (sqrt|(n_elem * emb9)| * (emb16 * emb21))
+random_split_seed4,0,ridge,base+random_gaussian_embedding,0.2044504788905816,
+random_split_seed4,0,GP,base+random_gaussian_embedding,0.26124004360593184,Ef = -0.007 + -20.923 * sqrt|((emb22 * emb21) * sqrt|(emb8 * range_rA)|)|
+random_split_seed4,0,ridge,base+shuffled_elements_embedding,0.18972079727118274,
+random_split_seed4,0,GP,base+shuffled_elements_embedding,0.24680058563134052,Ef = -0.012 + -67.168 * (((mean_mass)^2 + (emb3 * -(emb14))) * (sqrt|n_elem| * emb14))
+random_split_seed4,0,ridge,base_only,0.18476645309714332,
+random_split_seed4,0,GP,base_only,0.30351107981637365,Ef = 2.405 + -1.721 * sqrt|(((dev_rCov * (mean_EN * n_elem)) / sqrt|range_nval|) + n_elem)|
+random_split_seed4,1,ridge,base+learned_embedding,0.1913067852359478,
+random_split_seed4,1,GP,base+learned_embedding,0.21084662185076486,Ef = -0.004 + -127.781 * sqrt|((emb19 * emb16) * ((emb19 * mean_EN) * sqrt|emb15|))|
+random_split_seed4,1,ridge,base+random_gaussian_embedding,0.14943289321437622,
+random_split_seed4,1,GP,base+random_gaussian_embedding,0.2745122958901902,Ef = 0.027 + -49.340 * sqrt|((emb17)^2 * (dev_rCov * dev_mass))|
+random_split_seed4,1,ridge,base+shuffled_elements_embedding,0.15204033142306322,
+random_split_seed4,1,GP,base+shuffled_elements_embedding,0.34016964946257905,Ef = 0.019 + -45.870 * (dev_EN * (sqrt|((emb7 * emb15) * sqrt|range_mass|)| / mean_rCov))
+random_split_seed4,1,ridge,base_only,0.18476645309714332,
+random_split_seed4,1,GP,base_only,0.319625954712597,Ef = 2.103 + -0.554 * ((dev_rCov / range_nval) + (n_elem + ((-(range_nval) + (dev_rA / range_nval)) + n_elem)))
+random_split_seed4,2,ridge,base+learned_embedding,0.1913067852359478,
+random_split_seed4,2,GP,base+learned_embedding,0.24501259851735677,Ef = 0.005 + -122.079 * sqrt|((((emb7 - emb15) * (emb19 + emb16)) * n_elem) * (emb16 * (emb22 + emb16)))|
+random_split_seed4,2,ridge,base+random_gaussian_embedding,0.17349778608591723,
+random_split_seed4,2,GP,base+random_gaussian_embedding,0.2904417693136818,Ef = -0.016 + -12.694 * ((emb13 * ((sqrt|emb17| * range_EN) + emb17)) + (sqrt|emb17| * emb17))
+random_split_seed4,2,ridge,base+shuffled_elements_embedding,0.17535076132594915,
+random_split_seed4,2,GP,base+shuffled_elements_embedding,0.23738289104334134,Ef = 0.063 + -12.689 * (-((emb6 * (n_elem * emb16))) + (mean_rCov * emb16))
+random_split_seed4,2,ridge,base_only,0.18476645309714332,
+random_split_seed4,2,GP,base_only,0.37816273574503834,Ef = 3.983 + -2.808 * sqrt|(sqrt|n_elem| + ((dev_EN + dev_mass) / (range_rA / n_elem)))|
+random_split_seed5,0,ridge,base+learned_embedding,0.18107619955866747,
+random_split_seed5,0,GP,base+learned_embedding,0.19871831878766155,Ef = 0.006 + -77.595 * (((0.03 + emb21) / 0.39) * (sqrt|n_elem| * emb16))
+random_split_seed5,0,ridge,base+random_gaussian_embedding,0.20459872904865417,
+random_split_seed5,0,GP,base+random_gaussian_embedding,0.14666904332836936,Ef = -0.205 + -559.409 * (((mean_mass * (emb22)^2) / mean_rA) * (0.45 - sqrt|emb11|))
+random_split_seed5,0,ridge,base+shuffled_elements_embedding,0.27431440435710963,
+random_split_seed5,0,GP,base+shuffled_elements_embedding,0.20637215374414167,Ef = -0.117 + -217.984 * (((sqrt|sqrt|n_elem|| * (sqrt|emb4| * emb14)) * emb12) * emb16)
+random_split_seed5,0,ridge,base_only,0.19043027033768922,
+random_split_seed5,0,GP,base_only,0.2595456050909173,Ef = 0.009 + -0.073 * ((((n_elem + mean_nval) - (range_rCov / dev_EN)) / (dev_IE / dev_EN)) / (dev_IE / dev_EN))
+random_split_seed5,1,ridge,base+learned_embedding,0.18107619955866747,
+random_split_seed5,1,GP,base+learned_embedding,0.17416065815507045,Ef = -0.104 + -138.949 * (emb16 / (sqrt|((range_IE / n_elem) / range_EN)| / emb21))
+random_split_seed5,1,ridge,base+random_gaussian_embedding,0.24874798582351298,
+random_split_seed5,1,GP,base+random_gaussian_embedding,0.30844535479607227,Ef = -0.035 + -47.286 * (emb19 * emb13)
+random_split_seed5,1,ridge,base+shuffled_elements_embedding,0.19962766301270696,
+random_split_seed5,1,GP,base+shuffled_elements_embedding,0.20748269315056603,Ef = 0.069 + -32.943 * sqrt|(emb17 * (dev_rCov * sqrt|emb16|))|
+random_split_seed5,1,ridge,base_only,0.19043027033768922,
+random_split_seed5,1,GP,base_only,0.39000105907781957,Ef = 1.999 + -0.366 * ((((mean_EN + (n_elem / range_rA)) + dev_EN) + dev_EN) + n_elem)
+random_split_seed5,2,ridge,base+learned_embedding,0.18107619955866747,
+random_split_seed5,2,GP,base+learned_embedding,0.15245989534555912,Ef = -0.099 + -12401.553 * ((emb16 * emb21) * (emb3 * sqrt|(emb16 * sqrt|n_elem|)|))
+random_split_seed5,2,ridge,base+random_gaussian_embedding,0.2085897917774232,
+random_split_seed5,2,GP,base+random_gaussian_embedding,0.1601667536781521,Ef = -0.025 + -7.070 * ((((n_elem * emb17) + emb12) + dev_rCov) * emb18)
+random_split_seed5,2,ridge,base+shuffled_elements_embedding,0.24188357175766903,
+random_split_seed5,2,GP,base+shuffled_elements_embedding,0.25207581003567253,Ef = 0.245 + -3.417 * (((n_elem * emb21) + (emb16 + emb16)) + emb16)
+random_split_seed5,2,ridge,base_only,0.19043027033768922,
+random_split_seed5,2,GP,base_only,0.24263423034621479,Ef = 1.613 + -0.718 * (n_elem + ((dev_EN + dev_EN) / (range_rA / mean_IE)))
+random_split_seed6,0,ridge,base+learned_embedding,0.19913956350030926,
+random_split_seed6,0,GP,base+learned_embedding,0.1683233775680545,Ef = -0.034 + -346.285 * ((sqrt|sqrt|n_elem|| * ((dev_mass + emb2) * sqrt|emb19|)) * emb16)
+random_split_seed6,0,ridge,base+random_gaussian_embedding,0.1978854552430801,
+random_split_seed6,0,GP,base+random_gaussian_embedding,0.20070087812562656,Ef = -0.180 + -257.862 * ((sqrt|(emb21 * emb22)| * (range_rA / range_EN)) * (sqrt|emb8| * emb22))
+random_split_seed6,0,ridge,base+shuffled_elements_embedding,0.19570552966154012,
+random_split_seed6,0,GP,base+shuffled_elements_embedding,0.19030719581270844,Ef = -0.132 + -7.613 * ((sqrt|(dev_mass + (n_elem * emb16))| * emb14) * mean_IE)
+random_split_seed6,0,ridge,base_only,0.21263940876333762,
+random_split_seed6,0,GP,base_only,0.32940126217464993,Ef = 0.451 + -0.134 * ((n_elem + mean_EN) / (dev_IE / dev_EN))
+random_split_seed6,1,ridge,base+learned_embedding,0.19913956350030926,
+random_split_seed6,1,GP,base+learned_embedding,0.1710540566918143,Ef = -0.227 + -5709052.336 * ((emb3)^2 * ((emb16 * emb21))^2)
+random_split_seed6,1,ridge,base+random_gaussian_embedding,0.1752862878938371,
+random_split_seed6,1,GP,base+random_gaussian_embedding,0.18925813095249136,Ef = 0.046 + -12.399 * ((mean_EN * sqrt|sqrt|dev_EN||) * sqrt|((emb19 * (dev_EN * emb20)) * emb17)|)
+random_split_seed6,1,ridge,base+shuffled_elements_embedding,0.14742042560079324,
+random_split_seed6,1,GP,base+shuffled_elements_embedding,0.2893578098948366,Ef = 0.002 + -46.900 * sqrt|(sqrt|((emb22 * n_elem) * dev_rA)| * (emb11 * emb23))|
+random_split_seed6,1,ridge,base_only,0.21263940876333762,
+random_split_seed6,1,GP,base_only,0.33001377684037225,Ef = 1.302 + -1.385 * ((((n_elem - range_nval) - (mean_IE * range_nval)) - range_nval) + dev_EN)
+random_split_seed6,2,ridge,base+learned_embedding,0.19913956350030926,
+random_split_seed6,2,GP,base+learned_embedding,0.17247311823867528,Ef = -0.205 + -4782.556 * ((emb15 + emb17) * (emb16 * emb21))
+random_split_seed6,2,ridge,base+random_gaussian_embedding,0.1949736917320531,
+random_split_seed6,2,GP,base+random_gaussian_embedding,0.1588403050810166,Ef = -0.052 + -21.279 * (emb18 * ((emb17 * range_rA) + emb17))
+random_split_seed6,2,ridge,base+shuffled_elements_embedding,0.1947314782818795,
+random_split_seed6,2,GP,base+shuffled_elements_embedding,0.24087503270225,Ef = -0.061 + -2.729 * (emb16 * (((-2.41 + range_rho))^2 * (n_elem - range_rA)))
+random_split_seed6,2,ridge,base_only,0.21263940876333762,
+random_split_seed6,2,GP,base_only,0.2865564645335242,Ef = 0.664 + -0.649 * sqrt|((dev_EN + n_elem) / ((mean_rA * -0.84) + sqrt|dev_rCov|))|
+random_split_seed7,0,ridge,base+learned_embedding,0.18104922421169933,
+random_split_seed7,0,GP,base+learned_embedding,0.17123758835974778,Ef = -0.123 + -9055.781 * (emb21 * (sqrt|(emb19 * (emb9 * emb16))| * emb16))
+random_split_seed7,0,ridge,base+random_gaussian_embedding,0.20335337841107382,
+random_split_seed7,0,GP,base+random_gaussian_embedding,0.12515852704635216,Ef = -0.114 + -18.474 * (emb22 * sqrt|(sqrt|(emb15 / emb11)| * (sqrt|emb23| * mean_nval))|)
+random_split_seed7,0,ridge,base+shuffled_elements_embedding,0.2016535167183129,
+random_split_seed7,0,GP,base+shuffled_elements_embedding,0.2300488673094172,Ef = -0.282 + -210.430 * ((emb14 * (emb14 * (mean_EN * emb14))) * sqrt|emb23|)
+random_split_seed7,0,ridge,base_only,0.2233175194166813,
+random_split_seed7,0,GP,base_only,0.32750232655848943,Ef = 1.259 + -1.196 * sqrt|(n_elem + ((mean_EN * (mean_EN * dev_rCov)))^2)|
+random_split_seed7,1,ridge,base+learned_embedding,0.18104922421169933,
+random_split_seed7,1,GP,base+learned_embedding,0.2252271675183228,Ef = -0.042 + -156.839 * ((emb19 * emb16) * mean_EN)
+random_split_seed7,1,ridge,base+random_gaussian_embedding,0.18011563195987756,
+random_split_seed7,1,GP,base+random_gaussian_embedding,0.23705209907386793,Ef = -0.070 + -6.927 * (mean_EN * ((mean_EN * emb12) * dev_EN))
+random_split_seed7,1,ridge,base+shuffled_elements_embedding,0.19339502584835522,
+random_split_seed7,1,GP,base+shuffled_elements_embedding,0.30567676429930957,Ef = -0.348 + -2.153 * (((((mean_EN * mean_IE) * dev_EN) * emb21) * dev_EN) * mean_EN)
+random_split_seed7,1,ridge,base_only,0.2233175194166813,
+random_split_seed7,1,GP,base_only,0.2428128416645356,Ef = 1.154 + -1.066 * (((n_elem + dev_EN) - range_nval) - range_nval)
+random_split_seed7,2,ridge,base+learned_embedding,0.18104922421169933,
+random_split_seed7,2,GP,base+learned_embedding,0.16708642883999048,Ef = -0.096 + -6340.205 * ((emb21 * emb16) * sqrt|(emb16 * emb19)|)
+random_split_seed7,2,ridge,base+random_gaussian_embedding,0.16938676561153837,
+random_split_seed7,2,GP,base+random_gaussian_embedding,0.16778297339982937,Ef = -0.079 + -110.748 * (sqrt|((emb17 * emb17) * dev_EN)| * emb22)
+random_split_seed7,2,ridge,base+shuffled_elements_embedding,0.20759983742112442,
+random_split_seed7,2,GP,base+shuffled_elements_embedding,0.17949370605492454,Ef = -0.085 + -20.186 * (((emb16 + emb21) + emb21) * ((emb16 + dev_rCov) - emb12))
+random_split_seed7,2,ridge,base_only,0.2233175194166813,
+random_split_seed7,2,GP,base_only,0.2419883459428096,Ef = 3.980 + -1.356 * ((sqrt|n_elem| + sqrt|n_elem|) + (dev_EN / (range_rA / mean_IE)))
+random_split_seed8,0,ridge,base+learned_embedding,0.1775860461869853,
+random_split_seed8,0,GP,base+learned_embedding,0.22102888345266525,Ef = -0.220 + -21527.373 * ((emb16 * emb21) * (emb21 * emb11))
+random_split_seed8,0,ridge,base+random_gaussian_embedding,0.19717537462295626,
+random_split_seed8,0,GP,base+random_gaussian_embedding,0.1887185054689442,Ef = -0.085 + -3.617 * (emb22 + sqrt|(((emb15 / emb11) * emb21) * (n_elem * emb5))|)
+random_split_seed8,0,ridge,base+shuffled_elements_embedding,0.2029454114977278,
+random_split_seed8,0,GP,base+shuffled_elements_embedding,0.19107195420254325,Ef = -0.091 + -5.263 * ((emb16 * ((emb14 * n_elem) * sqrt|emb0|)) + emb14)
+random_split_seed8,0,ridge,base_only,0.18780250581912672,
+random_split_seed8,0,GP,base_only,0.3524433858478061,Ef = 0.899 + -0.966 * sqrt|(n_elem / (sqrt|dev_rCov| - mean_rCov))|
+random_split_seed8,1,ridge,base+learned_embedding,0.1775860461869853,
+random_split_seed8,1,GP,base+learned_embedding,0.22102888345266525,Ef = -0.220 + -21527.373 * ((emb11 * emb21) * (emb16 * emb21))
+random_split_seed8,1,ridge,base+random_gaussian_embedding,0.246970226933415,
+random_split_seed8,1,GP,base+random_gaussian_embedding,0.40855209900256656,Ef = 1.236 + -0.557 * (mean_EN + ((emb5 + emb11) + n_elem))
+random_split_seed8,1,ridge,base+shuffled_elements_embedding,0.15618148955221445,
+random_split_seed8,1,GP,base+shuffled_elements_embedding,0.34575268579668555,Ef = 1.137 + -0.393 * (mean_EN + (((dev_rCov * mean_EN) * mean_EN) + n_elem))
+random_split_seed8,1,ridge,base_only,0.18780250581912672,
+random_split_seed8,1,GP,base_only,0.3135877839027355,Ef = 2.244 + -0.833 * (((dev_EN / (mean_rCov)^2) / range_rA) + (0.9 + n_elem))
+random_split_seed8,2,ridge,base+learned_embedding,0.1775860461869853,
+random_split_seed8,2,GP,base+learned_embedding,0.24267116486319587,Ef = -0.094 + -0.299 * ((n_elem + sqrt|sqrt|emb15||) / ((dev_IE / emb19) - (dev_EN + sqrt|dev_EN|)))
+random_split_seed8,2,ridge,base+random_gaussian_embedding,0.19517589149793274,
+random_split_seed8,2,GP,base+random_gaussian_embedding,0.1601895514794157,Ef = -0.137 + -105.365 * ((emb22 * sqrt|dev_EN|) * emb17)
+random_split_seed8,2,ridge,base+shuffled_elements_embedding,0.18326250629462476,
+random_split_seed8,2,GP,base+shuffled_elements_embedding,0.3141813459891408,Ef = 1.020 + -0.887 * ((sqrt|(mean_EN * n_elem)| + (mean_EN * dev_rCov)) - sqrt|emb9|)
+random_split_seed8,2,ridge,base_only,0.18780250581912672,
+random_split_seed8,2,GP,base_only,0.35739207437444365,Ef = 0.451 + -0.771 * (((dev_EN + dev_nval) / (range_rA / n_elem)) / mean_rA)
+random_split_seed9,0,ridge,base+learned_embedding,0.21964608086208542,
+random_split_seed9,0,GP,base+learned_embedding,0.22202136578065812,Ef = -0.002 + -341.090 * (sqrt|(emb21 * n_elem)| * (sqrt|emb4| * emb16))
+random_split_seed9,0,ridge,base+random_gaussian_embedding,0.22031967036065275,
+random_split_seed9,0,GP,base+random_gaussian_embedding,0.2673434991569152,Ef = -0.205 + -1.371 * (sqrt|((n_elem / emb11) * ((emb22 * mean_nval))^2)| + emb22)
+random_split_seed9,0,ridge,base+shuffled_elements_embedding,0.2455566195002264,
+random_split_seed9,0,GP,base+shuffled_elements_embedding,0.17053315170340977,Ef = -0.106 + -12.639 * ((sqrt|(emb0 * n_elem)| * emb14) * sqrt|emb16|)
+random_split_seed9,0,ridge,base_only,0.19518610522786906,
+random_split_seed9,0,GP,base_only,0.33612847193280104,Ef = 0.387 + 0.211 * (((-0.92 + range_nval) - n_elem) / (dev_IE / dev_EN))
+random_split_seed9,1,ridge,base+learned_embedding,0.21964608086208542,
+random_split_seed9,1,GP,base+learned_embedding,0.23312948297226635,Ef = 0.009 + -35.914 * (emb16 * ((dev_EN + (-1 + (mean_IE + emb13))) + (-1.24 + ((mean_IE + emb13) + (emb13 + range_mass)))))
+random_split_seed9,1,ridge,base+random_gaussian_embedding,0.24844221963108984,
+random_split_seed9,1,GP,base+random_gaussian_embedding,0.31143856128898884,Ef = 0.014 + -0.849 * (emb5 + (mean_EN * sqrt|(emb19 * (-0.67 + n_elem))|))
+random_split_seed9,1,ridge,base+shuffled_elements_embedding,0.23759670834828162,
+random_split_seed9,1,GP,base+shuffled_elements_embedding,0.31739152653471325,Ef = -0.029 + -0.979 * sqrt|(sqrt|(emb23 * (dev_EN / emb8))| * n_elem)|
+random_split_seed9,1,ridge,base_only,0.19518610522786906,
+random_split_seed9,1,GP,base_only,0.34449000726559653,Ef = 0.097 + 1.291 * ((((range_nval / (dev_rA + dev_rA)) - -(range_mass)) - -(range_nval)) - n_elem)
+random_split_seed9,2,ridge,base+learned_embedding,0.21964608086208542,
+random_split_seed9,2,GP,base+learned_embedding,0.35812586344080594,Ef = 3.052 + -3.108 * sqrt|(((mean_rho)^2 - sqrt|dev_rCov|) + ((-(n_elem) + range_nval) + range_nval))|
+random_split_seed9,2,ridge,base+random_gaussian_embedding,0.21283870498627044,
+random_split_seed9,2,GP,base+random_gaussian_embedding,0.24881898866044294,Ef = 0.007 + -4.434 * ((emb18 * dev_rCov) + ((emb13 * range_EN) + emb17))
+random_split_seed9,2,ridge,base+shuffled_elements_embedding,0.2344769597526336,
+random_split_seed9,2,GP,base+shuffled_elements_embedding,0.24149961135011372,Ef = -0.072 + -61.755 * (sqrt|emb21| * (emb16 * sqrt|(range_IE - emb1)|))
+random_split_seed9,2,ridge,base_only,0.19518610522786906,
+random_split_seed9,2,GP,base_only,0.26231166816549223,Ef = 1.200 + 0.618 * ((-(n_elem) / mean_rCov) - ((dev_EN + dev_EN) / range_rA))
+family_heldout,0,ridge,base+learned_embedding,0.3430440416270365,
+family_heldout,0,GP,base+learned_embedding,0.1599430929332597,Ef = -0.232 + -364.273 * sqrt|(((sqrt|emb7| * n_elem) * (emb16 * emb21)) * (emb16 * -(emb19)))|
+family_heldout,0,ridge,base+random_gaussian_embedding,0.27867217412255996,
+family_heldout,0,GP,base+random_gaussian_embedding,0.21321639935554226,Ef = 0.583 + -4.715 * sqrt|sqrt|(((dev_rCov * emb21) / emb11) * dev_rho)||
+family_heldout,0,ridge,base+shuffled_elements_embedding,0.31446960226023396,
+family_heldout,0,GP,base+shuffled_elements_embedding,0.28223412501821876,Ef = -0.582 + -6.888 * ((((emb14)^2 * n_elem) * sqrt|emb16|) * mean_EN)
+family_heldout,0,ridge,base_only,0.3283228817352315,
+family_heldout,0,GP,base_only,0.277490316679784,Ef = 2.894 + -1.474 * ((((range_rCov - range_nval) + sqrt|n_elem|) - range_nval) + sqrt|n_elem|)
+family_heldout,1,ridge,base+learned_embedding,0.3430440416270365,
+family_heldout,1,GP,base+learned_embedding,0.24004076519550335,Ef = -0.439 + -4092.105 * ((((emb16 * emb2) * mean_mass) * dev_EN) * ((emb16 * n_elem) + ((mean_nval)^2)^2))
+family_heldout,1,ridge,base+random_gaussian_embedding,0.407867107470042,
+family_heldout,1,GP,base+random_gaussian_embedding,0.31080021629459026,Ef = 1.835 + -0.333 * ((mean_EN + mean_EN) + (sqrt|(range_rA / emb5)| + n_elem))
+family_heldout,1,ridge,base+shuffled_elements_embedding,0.39177754355375805,
+family_heldout,1,GP,base+shuffled_elements_embedding,0.30226389564438216,Ef = 2.114 + -0.459 * (dev_EN + (mean_EN + (((emb21 - -0.62) - (emb16 / emb0)) + (dev_EN + (emb21 + n_elem)))))
+family_heldout,1,ridge,base_only,0.3283228817352315,
+family_heldout,1,GP,base_only,0.4321480517552188,Ef = 7.624 + -6.259 * sqrt|sqrt|(((mean_EN + n_elem) - mean_rho) - mean_rho)||
+family_heldout,2,ridge,base+learned_embedding,0.3430440416270365,
+family_heldout,2,GP,base+learned_embedding,0.17010754522704172,Ef = -0.404 + 1273072.543 * (emb21 * ((emb19 * (emb16 * emb4)) * emb16))
+family_heldout,2,ridge,base+random_gaussian_embedding,0.43532096105941115,
+family_heldout,2,GP,base+random_gaussian_embedding,0.3026560251392759,Ef = 0.891 + -4.799 * ((emb13 * range_EN) + sqrt|emb17|)
+family_heldout,2,ridge,base+shuffled_elements_embedding,0.2300042361277519,
+family_heldout,2,GP,base+shuffled_elements_embedding,0.3666410478812465,Ef = 2.084 + -1.438 * ((sqrt|n_elem| + (emb23 + mean_IE)) + -(sqrt|emb4|))
+family_heldout,2,ridge,base_only,0.3283228817352315,
+family_heldout,2,GP,base_only,0.6058448298625395,Ef = -0.462 + -0.760 * (((-(range_rA) / dev_EN) + -(range_rA)) + (mean_IE + n_elem))
+groupfold0,0,ridge,base+learned_embedding,0.1983878732132157,
+groupfold0,0,GP,base+learned_embedding,0.2001517076379212,Ef = -0.046 + -983.473 * ((sqrt|sqrt|(emb16 * range_rA)|| * emb16) * emb21)
+groupfold0,0,ridge,base+random_gaussian_embedding,0.19287260410841886,
+groupfold0,0,GP,base+random_gaussian_embedding,0.18419830229510134,Ef = 0.020 + -1.024 * ((n_elem + sqrt|(sqrt|n_elem| / sqrt|emb11|)|) * (emb22 + emb21))
+groupfold0,0,ridge,base+shuffled_elements_embedding,0.2051661662646068,
+groupfold0,0,GP,base+shuffled_elements_embedding,0.25295695636086435,Ef = -0.162 + -34.998 * (emb19 * ((mean_EN * (emb19 * (range_rA / range_EN))) * (emb22 + emb19)))
+groupfold0,0,ridge,base_only,0.21757901269884664,
+groupfold0,0,GP,base_only,0.38921616920230456,Ef = 0.365 + 0.332 * ((range_rCov + (range_rA - n_elem)) - ((mean_EN)^2 * dev_EN))
+groupfold0,1,ridge,base+learned_embedding,0.1983878732132157,
+groupfold0,1,GP,base+learned_embedding,0.2049350802353287,Ef = 0.011 + -327.048 * (((emb19 * emb16) * mean_EN) * sqrt|mean_mass|)
+groupfold0,1,ridge,base+random_gaussian_embedding,0.1650641731542333,
+groupfold0,1,GP,base+random_gaussian_embedding,0.26871138177574194,Ef = -0.177 + -22.396 * ((emb19 * (mean_IE + (emb19 * n_elem))) * emb13)
+groupfold0,1,ridge,base+shuffled_elements_embedding,0.18621005572438423,
+groupfold0,1,GP,base+shuffled_elements_embedding,0.28435085480738326,Ef = -0.029 + -23.817 * ((emb21 * dev_rCov) * sqrt|(emb17 * ((n_elem / range_rCov) / emb23))|)
+groupfold0,1,ridge,base_only,0.21757901269884664,
+groupfold0,1,GP,base_only,0.3170133268665744,Ef = 1.148 + 0.411 * ((range_nval / dev_rA) - ((mean_EN + n_elem) + n_elem))
+groupfold0,2,ridge,base+learned_embedding,0.1983878732132157,
+groupfold0,2,GP,base+learned_embedding,0.23569830687121515,Ef = -0.033 + -144.332 * sqrt|((emb16 * emb16) * ((n_elem * emb21) * sqrt|emb21|))|
+groupfold0,2,ridge,base+random_gaussian_embedding,0.18256370498281307,
+groupfold0,2,GP,base+random_gaussian_embedding,0.23056214282850127,Ef = 0.053 + -6.683 * ((emb13 * (((dev_EN + emb16))^2 + (emb17 * n_elem))) + emb17)
+groupfold0,2,ridge,base+shuffled_elements_embedding,0.21649693362557373,
+groupfold0,2,GP,base+shuffled_elements_embedding,0.29029529516351066,Ef = -0.091 + -46.272 * ((((n_elem * emb16) / 2.6) + ((emb6 - dev_rCov))^2) * emb16)
+groupfold0,2,ridge,base_only,0.21757901269884664,
+groupfold0,2,GP,base_only,0.3954603417587594,Ef = -0.034 + -1.056 * (((dev_EN * sqrt|(n_elem * mean_IE)|) * mean_IE) * mean_IE)
+groupfold1,0,ridge,base+learned_embedding,0.2180263001935744,
+groupfold1,0,GP,base+learned_embedding,0.21183022810348537,Ef = 0.005 + -1098.624 * ((sqrt|sqrt|(emb16 * range_IE)|| * emb16) * emb21)
+groupfold1,0,ridge,base+random_gaussian_embedding,0.229537687005264,
+groupfold1,0,GP,base+random_gaussian_embedding,0.20339859700701315,Ef = -0.331 + -0.960 * sqrt|((((emb22 / mean_rA) / emb11) * dev_rho) * n_elem)|
+groupfold1,0,ridge,base+shuffled_elements_embedding,0.2056902806198172,
+groupfold1,0,GP,base+shuffled_elements_embedding,0.22180178182527865,Ef = -0.109 + -12.970 * (sqrt|(emb16 * (emb0 * n_elem))| * emb14)
+groupfold1,0,ridge,base_only,0.19592714584503793,
+groupfold1,0,GP,base_only,0.30961603035490753,Ef = 0.855 + 0.741 * ((range_rA + (range_rA - n_elem)) - (sqrt|dev_EN| / (dev_IE / dev_EN)))
+groupfold1,1,ridge,base+learned_embedding,0.2180263001935744,
+groupfold1,1,GP,base+learned_embedding,0.22292507159618088,Ef = -0.029 + -1464.360 * (emb21 * (sqrt|(emb16 + emb17)| * emb16))
+groupfold1,1,ridge,base+random_gaussian_embedding,0.20389503418180638,
+groupfold1,1,GP,base+random_gaussian_embedding,0.19020012114883433,Ef = -0.122 + -24.543 * (((emb19 * (emb19 + mean_IE)) * emb13) * ((dev_EN + -0.57) + mean_IE))
+groupfold1,1,ridge,base+shuffled_elements_embedding,0.23651557627245479,
+groupfold1,1,GP,base+shuffled_elements_embedding,0.5397840448415256,Ef = -0.861 + -0.062 * ((-0.9 + n_elem) / emb9)
+groupfold1,1,ridge,base_only,0.19592714584503793,
+groupfold1,1,GP,base_only,0.2717430838406586,Ef = 4.792 + -1.060 * ((-1.88 * range_nval) + ((((dev_rCov - -1.88))^2 + -(range_nval)) + n_elem))
+groupfold1,2,ridge,base+learned_embedding,0.2180263001935744,
+groupfold1,2,GP,base+learned_embedding,0.21554758327336856,Ef = -0.152 + -7567.887 * sqrt|(emb21 * ((emb16 * (emb14 * emb11)))^2)|
+groupfold1,2,ridge,base+random_gaussian_embedding,0.17739659618487782,
+groupfold1,2,GP,base+random_gaussian_embedding,0.21632125635185603,Ef = -0.081 + -110.014 * (sqrt|dev_EN| * (emb17 * emb22))
+groupfold1,2,ridge,base+shuffled_elements_embedding,0.21333793943513613,
+groupfold1,2,GP,base+shuffled_elements_embedding,0.2531855770382958,Ef = 0.080 + -2.537 * ((mean_EN * (dev_rCov - emb12)) - -(((n_elem - mean_rho) * emb21)))
+groupfold1,2,ridge,base_only,0.19592714584503793,
+groupfold1,2,GP,base_only,0.3109329978251007,Ef = 0.109 + -0.205 * ((mean_IE * dev_EN) / ((range_rA / (mean_EN + range_rA)) / n_elem))
+groupfold2,0,ridge,base+learned_embedding,0.12722952384500114,
+groupfold2,0,GP,base+learned_embedding,0.15172069930170748,Ef = -0.161 + -6102.088 * (emb16 * (sqrt|emb19| * (emb14 * emb2)))
+groupfold2,0,ridge,base+random_gaussian_embedding,0.1471844390653558,
+groupfold2,0,GP,base+random_gaussian_embedding,0.19967764957677017,Ef = -0.280 + -2.983 * sqrt|((emb22 / sqrt|(emb11 * dev_rA)|) * ((emb22 * n_elem) * emb22))|
+groupfold2,0,ridge,base+shuffled_elements_embedding,0.15530029967397713,
+groupfold2,0,GP,base+shuffled_elements_embedding,0.133069858187258,Ef = -0.200 + -5.553 * ((emb14 * sqrt|n_elem|) * (emb16 + (mean_EN * emb14)))
+groupfold2,0,ridge,base_only,0.10882431403712886,
+groupfold2,0,GP,base_only,0.20355444959997118,Ef = 0.577 + -0.306 * (((dev_EN - range_nval) + ((dev_rho / dev_EN) + n_elem)) / (dev_rA / dev_EN))
+groupfold2,1,ridge,base+learned_embedding,0.12722952384500114,
+groupfold2,1,GP,base+learned_embedding,0.17266340870329805,Ef = 0.022 + -792.618 * ((emb16 * mean_nval) * emb19)
+groupfold2,1,ridge,base+random_gaussian_embedding,0.08718138449434623,
+groupfold2,1,GP,base+random_gaussian_embedding,0.19461948906170318,Ef = -0.010 + -30.003 * (emb17 * (((mean_IE)^2 + emb5) * emb14))
+groupfold2,1,ridge,base+shuffled_elements_embedding,0.08217561343128184,
+groupfold2,1,GP,base+shuffled_elements_embedding,0.25704974702632366,Ef = 1.557 + -0.412 * (mean_EN + (sqrt|(-1.04 - (dev_EN / emb9))| + n_elem))
+groupfold2,1,ridge,base_only,0.10882431403712886,
+groupfold2,1,GP,base_only,0.23728833192426022,Ef = 1.960 + -0.993 * ((((dev_rCov / range_nval) - ((range_nval)^2)^2) + n_elem) - -(dev_IE))
+groupfold2,2,ridge,base+learned_embedding,0.12722952384500114,
+groupfold2,2,GP,base+learned_embedding,0.1089191030172086,Ef = -0.121 + -164.319 * sqrt|((((emb16)^2 * emb21) * n_elem) * ((-2.37 * emb21) - emb1))|
+groupfold2,2,ridge,base+random_gaussian_embedding,0.10913462079447322,
+groupfold2,2,GP,base+random_gaussian_embedding,0.15400205520623364,Ef = -0.073 + 15.844 * ((emb18 * emb17) * (-1.58 - range_rA))
+groupfold2,2,ridge,base+shuffled_elements_embedding,0.1248587686657472,
+groupfold2,2,GP,base+shuffled_elements_embedding,0.28565727597480495,Ef = 5.895 + -3.945 * (-((-2.71 * emb16)) + sqrt|(-((range_EN * emb6)) + sqrt|(n_elem - -3.09)|)|)
+groupfold2,2,ridge,base_only,0.10882431403712886,
+groupfold2,2,GP,base_only,0.262240854035842,Ef = 2.073 + -2.073 * sqrt|((-(n_elem) / mean_rCov) - (-(range_nval) + dev_EN))|
+groupfold3,0,ridge,base+learned_embedding,0.30447786708333074,
+groupfold3,0,GP,base+learned_embedding,0.2032596799476488,Ef = -0.142 + -4210.916 * ((sqrt|(emb21 * emb16)| * (emb17 + emb21)) * emb16)
+groupfold3,0,ridge,base+random_gaussian_embedding,0.2891091984987621,
+groupfold3,0,GP,base+random_gaussian_embedding,0.4396242993864212,Ef = -0.384 + -1.758 * sqrt|((((emb5 * mean_IE) * emb22) * n_elem) / (emb11 / dev_rho))|
+groupfold3,0,ridge,base+shuffled_elements_embedding,0.26474030883535477,
+groupfold3,0,GP,base+shuffled_elements_embedding,0.24156386596597312,Ef = -0.298 + -34.762 * ((emb14)^2 * sqrt|(sqrt|(emb16 - dev_nval)| * n_elem)|)
+groupfold3,0,ridge,base_only,0.26964332658335893,
+groupfold3,0,GP,base_only,0.3089479718222777,Ef = -0.707 + 1.097 * ((((mean_IE)^2 * sqrt|range_IE|) / (dev_IE / dev_EN)) - (((mean_IE)^2 * sqrt|(dev_EN * n_elem)|) / (dev_rA / dev_EN)))
+groupfold3,1,ridge,base+learned_embedding,0.30447786708333074,
+groupfold3,1,GP,base+learned_embedding,0.16465337385097198,Ef = -0.136 + -6465.441 * (sqrt|(emb20 + emb15)| * ((emb16 * emb2) * emb14))
+groupfold3,1,ridge,base+random_gaussian_embedding,0.233267230456986,
+groupfold3,1,GP,base+random_gaussian_embedding,0.18760336327419455,Ef = -0.081 + -52.825 * (((mean_IE * sqrt|(emb19 * emb14)|) * ((emb19 * emb14) + sqrt|emb22|)) * sqrt|(-(dev_rCov) + emb21)|)
+groupfold3,1,ridge,base+shuffled_elements_embedding,0.2448969556689188,
+groupfold3,1,GP,base+shuffled_elements_embedding,0.436070190074345,Ef = -4.497 + 7.087 * sqrt|(sqrt|(sqrt|emb8| * mean_rCov)| / n_elem)|
+groupfold3,1,ridge,base_only,0.26964332658335893,
+groupfold3,1,GP,base_only,0.4102826113417898,Ef = 5.951 + -3.069 * sqrt|((mean_EN + n_elem) + sqrt|dev_EN|)|
+groupfold3,2,ridge,base+learned_embedding,0.30447786708333074,
+groupfold3,2,GP,base+learned_embedding,0.20100486375121732,Ef = -0.139 + -9277.002 * sqrt|((((emb16 * emb16) * emb21) * (emb16 * emb21)) / (2.33 / emb19))|
+groupfold3,2,ridge,base+random_gaussian_embedding,0.23074119587530295,
+groupfold3,2,GP,base+random_gaussian_embedding,0.18418487977921535,Ef = -0.113 + -107.090 * (emb17 * sqrt|((emb22)^2 * dev_EN)|)
+groupfold3,2,ridge,base+shuffled_elements_embedding,0.28043769169526395,
+groupfold3,2,GP,base+shuffled_elements_embedding,0.2764448376468309,Ef = -2.106 + 3.519 * (sqrt|(sqrt|emb9| - emb16)| - (n_elem * emb16))
+groupfold3,2,ridge,base_only,0.26964332658335893,
+groupfold3,2,GP,base_only,0.30937474009726607,Ef = 1.367 + -1.293 * sqrt|((dev_EN + mean_IE) / (mean_rCov / n_elem))|
+groupfold4,0,ridge,base+learned_embedding,0.16670243328277837,
+groupfold4,0,GP,base+learned_embedding,0.17391590112710334,Ef = -0.009 + -442.853 * (emb16 * (emb21 * sqrt|(sqrt|range_rCov| + emb11)|))
+groupfold4,0,ridge,base+random_gaussian_embedding,0.18866474450233012,
+groupfold4,0,GP,base+random_gaussian_embedding,0.1266831716614584,Ef = -0.237 + -73.778 * (emb22 * ((emb21 + sqrt|emb23|) * emb22))
+groupfold4,0,ridge,base+shuffled_elements_embedding,0.19544871909269473,
+groupfold4,0,GP,base+shuffled_elements_embedding,0.14964520605504572,Ef = -0.255 + -2697.707 * (emb14 * (emb14 * ((emb16 * emb10) * emb14)))
+groupfold4,0,ridge,base_only,0.1835540064775405,
+groupfold4,0,GP,base_only,0.32843251998580464,Ef = -0.043 + -0.339 * (((dev_EN)^2 - range_EN) - (n_elem - ((dev_rho + n_elem) / (dev_IE / dev_EN))))
+groupfold4,1,ridge,base+learned_embedding,0.16670243328277837,
+groupfold4,1,GP,base+learned_embedding,0.16436853028191095,Ef = -0.086 + 696.670 * ((emb16 * emb21) * ((emb11 * (0.11 - sqrt|n_elem|)) - sqrt|emb21|))
+groupfold4,1,ridge,base+random_gaussian_embedding,0.15623290509636314,
+groupfold4,1,GP,base+random_gaussian_embedding,0.2012278636445051,Ef = -0.082 + -74.274 * ((emb19 * sqrt|sqrt|(range_rCov * emb17)||) * emb13)
+groupfold4,1,ridge,base+shuffled_elements_embedding,0.1438842078392846,
+groupfold4,1,GP,base+shuffled_elements_embedding,0.3390980675506655,Ef = 3.154 + -1.676 * (((emb23 + sqrt|n_elem|) + mean_IE) + emb9)
+groupfold4,1,ridge,base_only,0.1835540064775405,
+groupfold4,1,GP,base_only,0.3587434773510679,Ef = 0.130 + -0.899 * ((mean_rho + n_elem) - (range_nval / sqrt|dev_rCov|))
+groupfold4,2,ridge,base+learned_embedding,0.16670243328277837,
+groupfold4,2,GP,base+learned_embedding,0.205547441358262,Ef = -0.053 + -335.565 * sqrt|((emb16 * emb21) * ((n_elem * emb16) * emb4))|
+groupfold4,2,ridge,base+random_gaussian_embedding,0.18915683346815926,
+groupfold4,2,GP,base+random_gaussian_embedding,0.2285118825668587,Ef = 0.203 + -4.284 * (((emb13 * range_EN) + emb17) + emb17)
+groupfold4,2,ridge,base+shuffled_elements_embedding,0.19479053144527428,
+groupfold4,2,GP,base+shuffled_elements_embedding,0.22580278235818366,Ef = -0.013 + 81.906 * (((sqrt|sqrt|emb21|| * emb3) * sqrt|sqrt|n_elem||) * emb16)
+groupfold4,2,ridge,base_only,0.1835540064775405,
+groupfold4,2,GP,base_only,0.31119369042697936,Ef = 2.858 + -0.853 * ((sqrt|mean_EN| + -((range_IE - n_elem))) + ((dev_EN + dev_EN) / range_rA))

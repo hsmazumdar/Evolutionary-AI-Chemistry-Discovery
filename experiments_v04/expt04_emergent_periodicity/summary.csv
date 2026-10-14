@@ -1,0 +1,17 @@
+setting,model,features,MAE,CI_lo,CI_hi
+Fe-Na-O-P splits,GP,base+learned_embedding,0.2102,0.1914,0.2309
+Fe-Na-O-P splits,GP,base+random_gaussian_embedding,0.231,0.2083,0.2569
+Fe-Na-O-P splits,GP,base+shuffled_elements_embedding,0.2709,0.2511,0.2926
+Fe-Na-O-P splits,GP,base_only,0.3198,0.2978,0.345
+Fe-Na-O-P splits,ridge,base+learned_embedding,0.2078,0.1857,0.2342
+Fe-Na-O-P splits,ridge,base+random_gaussian_embedding,0.2093,0.1855,0.2391
+Fe-Na-O-P splits,ridge,base+shuffled_elements_embedding,0.2096,0.1891,0.2311
+Fe-Na-O-P splits,ridge,base_only,0.2045,0.1833,0.2279
+pooled_10shot_ridge,ridge,learned,0.526,0.3884,0.6646
+pooled_10shot_ridge,ridge,none,0.4819,0.3849,0.5972
+pooled_10shot_ridge,ridge,random_gaussian,0.5526,0.4444,0.6554
+pooled_10shot_ridge,ridge,shuffled_elements,0.505,0.3953,0.6289
+zero_shot_ridge,ridge,learned,1.4982,0.9032,2.1442
+zero_shot_ridge,ridge,none,1.7178,0.8662,2.6993
+zero_shot_ridge,ridge,random_gaussian,3.0834,2.3707,3.7017
+zero_shot_ridge,ridge,shuffled_elements,2.3705,1.6191,3.225

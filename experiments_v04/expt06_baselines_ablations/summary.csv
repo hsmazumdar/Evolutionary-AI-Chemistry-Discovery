@@ -1,0 +1,25 @@
+family,model,n_splits,MAE_mean,CI95_lo,CI95_hi,runtime_s
+group_heldout,mlp,6,0.2152,0.1837,0.243,2.85
+group_heldout,ridge,6,0.2173,0.1632,0.2718,0.0
+group_heldout,random_forest,6,0.2263,0.1931,0.2608,6.39
+group_heldout,gradient_boosting,6,0.2315,0.2024,0.2619,3.37
+group_heldout,proposed_two_population,6,0.2668,0.2439,0.2898,0.65
+group_heldout,sparse_lasso_expanded (SISSO-like),6,0.3045,0.1844,0.4804,11.51
+group_heldout,V03_GP,6,0.3301,0.28,0.3912,0.62
+group_heldout,mean_predictor,6,0.6538,0.582,0.7227,0.0
+quaternary_heldout,ridge,1,0.2038,0.2038,0.2038,0.0
+quaternary_heldout,mlp,1,0.2166,0.2166,0.2166,3.06
+quaternary_heldout,sparse_lasso_expanded (SISSO-like),1,0.2361,0.2361,0.2361,7.76
+quaternary_heldout,V03_GP,1,0.3184,0.3184,0.3184,0.7
+quaternary_heldout,proposed_two_population,1,0.3629,0.3629,0.3629,0.65
+quaternary_heldout,gradient_boosting,1,0.5024,0.5024,0.5024,3.97
+quaternary_heldout,random_forest,1,0.5196,0.5196,0.5196,7.32
+quaternary_heldout,mean_predictor,1,0.8612,0.8612,0.8612,0.0
+random_60_40,ridge,10,0.1969,0.1863,0.2078,0.01
+random_60_40,mlp,10,0.2168,0.2013,0.2322,2.69
+random_60_40,gradient_boosting,10,0.2324,0.2096,0.2572,3.22
+random_60_40,random_forest,10,0.243,0.2183,0.2692,6.04
+random_60_40,proposed_two_population,10,0.2765,0.2579,0.2935,0.63
+random_60_40,V03_GP,10,0.2902,0.2745,0.3071,0.63
+random_60_40,sparse_lasso_expanded (SISSO-like),10,0.3137,0.2514,0.3735,8.43
+random_60_40,mean_predictor,10,0.6237,0.587,0.6593,0.0

@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 results/gui_*
+experiments_v04/**/run.log
+experiments_v04/**/__pycache__/
+.pytest_cache/

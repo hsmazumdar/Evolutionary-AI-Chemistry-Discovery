@@ -1,0 +1,17 @@
+[
+ {
+  "evo_seed": 0,
+  "source_rule": "Ef = -0.073 + -0.167 * ((dev_EN / mean_rA) * ((n_elem + mean_EN) / (dev_rA / dev_EN)))",
+  "nodes": 11
+ },
+ {
+  "evo_seed": 1,
+  "source_rule": "Ef = 3.459 + -3.613 * ((dev_rCov - -(sqrt|n_elem|)) - ((-(range_nval) * (-0.67 + range_nval)) + range_nval))",
+  "nodes": 14
+ },
+ {
+  "evo_seed": 2,
+  "source_rule": "Ef = 1.867 + -0.619 * (-((range_rA)^2) + ((sqrt|(mean_EN + n_elem)| + dev_rCov))^2)",
+  "nodes": 11
+ }
+]
