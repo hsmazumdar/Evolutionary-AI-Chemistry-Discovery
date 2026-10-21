@@ -23,3 +23,395 @@ done-job O-P-Sn-Sr A0 SynthNN-style pooled 235
 done-job O-P-Sn-Sr A1 SynthNN-style pooled 236
 done-job O-P-Sn-Sr A2 SynthNN-style pooled 245
 done-job O-P-Sn-Sr A3 SynthNN-style pooled 256
+done-job O-P-Sn-Sr A4 SynthNN-style pooled 283
+done-job Al-Cu-O-Ti A0 PU-RF 283
+done-job Al-Cu-O-Ti A1 B2 Roost-style PU 288
+done-job Al-Cu-O-Ti A2 PU-RF 291
+done-job Al-Cu-O-Ti A4 B2 Roost-style PU 295
+done-job Ca-Fe-Ge-O A0 B1 Magpie-GB PU 297
+done-job Al-Cu-O-Ti A3 SynthNN-style pooled 298
+done-job Ca-Fe-Ge-O A1 B1 Magpie-GB PU 314
+done-job Cl-Fe-O-W A0 SynthNN-style pooled 348
+done-job Ca-Fe-Ge-O A2 B1 Magpie-GB PU 348
+done-job Ca-Fe-Ge-O A4 SynthNN-style pooled 359
+done-job Cl-Fe-O-W A1 B2 Roost-style PU 359
+done-job Ca-Fe-Ge-O A3 SynthNN-style pooled 360
+done-job Cl-Fe-O-W A2 SynthNN-style pooled 361
+done-job Cl-Fe-O-W A4 B2 Roost-style PU 371
+done-job Cl-Fe-O-W A3 PU-RF 371
+done-job Co-O-S-U A1 SynthNN-style pooled 407
+done-job Co-O-S-U A0 B2 Roost-style PU 413
+done-job Co-O-S-U A4 B1 Magpie-GB PU 422
+done-job Co-O-S-U A3 B1 Magpie-GB PU 424
+done-job Co-O-S-U A2 B1 Magpie-GB PU 427
+done-job La-O-Se-Ti A0 SynthNN-style pooled 429
+done-job La-O-Se-Ti A1 B2 Roost-style PU 435
+done-job La-O-Se-Ti A2 SynthNN-style pooled 440
+done-job La-O-Se-Ti A4 B1 Magpie-GB PU 1084
+done-job Mo-Na-O-U A0 SynthNN-style pooled 1092
+done-job La-O-Se-Ti A3 SynthNN-style pooled 1095
+done-job Mo-Na-O-U A1 PU-RF 1109
+done-job Mo-Na-O-U A3 PU-RF 1115
+done-job Mo-Na-O-U A2 B1 Magpie-GB PU 1119
+done-job Mo-Na-O-U A4 PU-RF 1122
+done-job N-Na-O-W A0 SynthNN-style pooled 1135
+done-job N-Na-O-W A2 PU-RF 1152
+done-job N-Na-O-W A1 SynthNN-style pooled 1153
+done-job N-Na-O-W A3 SynthNN-style pooled 1155
+done-job N-Na-O-W A4 SynthNN-style pooled 1167
+done-job O-Sb-Tl-V A1 PU-RF 1190
+done-job O-Sb-Tl-V A2 PU-RF 1191
+done-job O-Sb-Tl-V A3 PU-RF 1196
+done-job As-Ba-Cu-O A1 PU-RF 1207
+done-job O-Sb-Tl-V A0 PU-RF 1211
+done-job O-Sb-Tl-V A4 SynthNN-style pooled 1215
+done-job As-Ba-Cu-O A2 PU-RF 1220
+done-job As-Ba-Cu-O A0 PU-RF 1221
+done-job As-Ba-Cu-O A3 PU-RF 1245
+done-job As-Ba-Cu-O A4 SynthNN-style pooled 1249
+done-job Ba-Nb-O-Te A0 B2 Roost-style PU 1250
+done-job Ba-Nb-O-Te A1 SynthNN-style pooled 1262
+done-job Ba-Nb-O-Te A2 B1 Magpie-GB PU 1263
+done-job Ba-Nb-O-Te A3 SynthNN-style pooled 1263
+done-job Ba-Nb-O-Te A4 B2 Roost-style PU 1279
+done-job Bi-Mo-O-Se A0 PU-RF 1285
+done-job Bi-Mo-O-Se A1 B2 Roost-style PU 1291
+done-job Bi-Mo-O-Se A3 PU-RF 1301
+done-job Bi-Mo-O-Se A2 PU-RF 1308
+done-job Bi-Mo-O-Se A4 PU-RF 1315
+done-job Fe-O-V-Zn A1 B2 Roost-style PU 1323
+done-job Fe-O-V-Zn A0 SynthNN-style pooled 1325
+done-job Fe-O-V-Zn A2 PU-RF 1333
+done-job Fe-O-V-Zn A4 PU-RF 1341
+done-job Fe-O-V-Zn A3 PU-RF 1352
+done-job Ga-Ge-Ni-Sm A0 B2 Roost-style PU 1363
+done-job Ga-Ge-Ni-Sm A1 PU-RF 1364
+done-job Ga-Ge-Ni-Sm A2 B2 Roost-style PU 1369
+done-job Ga-Ge-Ni-Sm A4 SynthNN-style pooled 1382
+done-job Ga-Ge-Ni-Sm A3 SynthNN-style pooled 1391
+done-job Al-O-Sr-W A0 PU-RF 1399
+done-job Al-O-Sr-W A1 SynthNN-style pooled 1404
+done-job Al-O-Sr-W A2 SynthNN-style pooled 1420
+done-job Al-O-Sr-W A4 SynthNN-style pooled 1425
+done-job Al-O-Sr-W A3 SynthNN-style pooled 1435
+done-job Cl-Cs-O-U A0 SynthNN-style pooled 1437
+done-job Cl-Cs-O-U A1 B1 Magpie-GB PU 1451
+done-job Cl-Cs-O-U A2 B1 Magpie-GB PU 1456
+done-job Cl-Cs-O-U A3 SynthNN-style pooled 1466
+done-job Cl-Cs-O-U A4 PU-RF 1470
+done-job Cl-Mo-O-Pr A1 B1 Magpie-GB PU 1474
+done-job Cl-Mo-O-Pr A0 PU-RF 1477
+done-job Cl-Mo-O-Pr A2 B2 Roost-style PU 1496
+done-job Cl-Mo-O-Pr A3 SynthNN-style pooled 1505
+done-job Cl-Mo-O-Pr A4 B1 Magpie-GB PU 1514
+done-job I-La-O-V A0 PU-RF 1516
+done-job I-La-O-V A1 B2 Roost-style PU 1865
+done-job I-La-O-V A2 PU-RF 1870
+done-job I-La-O-V A3 B1 Magpie-GB PU 1888
+done-job In-La-Ni-S A1 B1 Magpie-GB PU 1897
+done-job I-La-O-V A4 B2 Roost-style PU 1897
+done-job In-La-Ni-S A0 SynthNN-style pooled 1903
+done-job In-La-Ni-S A3 B2 Roost-style PU 1915
+done-job In-La-Ni-S A2 SynthNN-style pooled 1917
+done-job In-La-Ni-S A4 SynthNN-style pooled 1946
+done-job As-Co-Na-O A1 B1 Magpie-GB PU 1947
+done-job As-Co-Na-O A0 SynthNN-style pooled 1957
+done-job As-Co-Na-O A2 B1 Magpie-GB PU 1958
+done-job As-Co-Na-O A4 B1 Magpie-GB PU 1960
+done-job As-Co-Na-O A3 SynthNN-style pooled 1962
+done-job Ba-Cr-N-O A1 SynthNN-style pooled 1975
+done-job Ba-Cr-N-O A0 SynthNN-style pooled 1989
+done-job Ba-Cr-N-O A3 PU-RF 2002
+done-job Ba-Cr-N-O A2 PU-RF 2005
+done-job Bi-Mn-O-Sr A0 PU-RF 2008
+done-job Bi-Mn-O-Sr A1 B1 Magpie-GB PU 2011
+done-job Bi-Mn-O-Sr A2 SynthNN-style pooled 2018
+done-job Ba-Cr-N-O A4 SynthNN-style pooled 2019
+done-job Bi-Mn-O-Sr A3 SynthNN-style pooled 2040
+done-job Bi-Mn-O-Sr A4 B1 Magpie-GB PU 2052
+done-job Cl-O-P-Re A1 PU-RF 2061
+done-job Cl-O-P-Re A2 B1 Magpie-GB PU 2067
+done-job Cl-O-P-Re A3 PU-RF 2071
+done-job Cl-O-P-Re A0 PU-RF 2077
+done-job Ge-Ho-In-Ni A0 B2 Roost-style PU 2079
+done-job Cl-O-P-Re A4 PU-RF 2083
+done-job Ge-Ho-In-Ni A1 SynthNN-style pooled 2102
+done-job Ge-Ho-In-Ni A2 PU-RF 2108
+done-job Ge-Ho-In-Ni A3 SynthNN-style pooled 2115
+done-job Ge-Ho-In-Ni A4 SynthNN-style pooled 2125
+done-job Ge-Li-O-Ti A0 B1 Magpie-GB PU 2132
+done-job Ge-Li-O-Ti A1 SynthNN-style pooled 2140
+done-job Ge-Li-O-Ti A3 SynthNN-style pooled 2145
+done-job Ge-Li-O-Ti A2 PU-RF 2149
+done-job Ge-Li-O-Ti A4 PU-RF 2157
+done-job K-Mn-N-O A0 SynthNN-style pooled 2165
+done-job K-Mn-N-O A1 SynthNN-style pooled 2186
+done-job K-Mn-N-O A3 SynthNN-style pooled 2189
+done-job Mn-O-Pr-Se A0 SynthNN-style pooled 2197
+done-job Mn-O-Pr-Se A1 B2 Roost-style PU 2203
+done-job K-Mn-N-O A4 B1 Magpie-GB PU 2207
+done-job K-Mn-N-O A2 SynthNN-style pooled 2208
+done-job Mn-O-Pr-Se A3 B2 Roost-style PU 2215
+done-job Mn-O-Pr-Se A2 PU-RF 2222
+done-job Mn-O-Pr-Se A4 PU-RF 2247
+done-job B-Co-Er-Si A0 B1 Magpie-GB PU 2251
+done-job B-Co-Er-Si A1 B1 Magpie-GB PU 2258
+done-job B-Co-Er-Si A2 B2 Roost-style PU 2264
+done-job B-Co-Fe-Y A1 B1 Magpie-GB PU 2279
+done-job B-Co-Fe-Y A0 PU-RF 2282
+done-job B-Co-Er-Si A3 B1 Magpie-GB PU 2286
+done-job B-Co-Er-Si A4 B2 Roost-style PU 2289
+done-job B-Co-Fe-Y A3 SynthNN-style pooled 2304
+done-job B-Co-Fe-Y A2 PU-RF 2307
+done-job B-Co-Fe-Y A4 B2 Roost-style PU 2662
+done-job B-Co-Ni-Sm A0 SynthNN-style pooled 2677
+done-job B-Co-Ni-Sm A1 SynthNN-style pooled 2688
+done-job B-Co-Ni-Sm A2 B1 Magpie-GB PU 2695
+done-job B-Co-Ni-Sm A3 SynthNN-style pooled 2703
+done-job B-Co-Ni-Sm A4 B2 Roost-style PU 2703
+done-job B-Ho-Ni-O A1 SynthNN-style pooled 2729
+done-job B-Ho-Ni-O A0 SynthNN-style pooled 2735
+done-job B-Ho-Ni-O A2 B2 Roost-style PU 2746
+done-job B-Ho-Ni-O A3 SynthNN-style pooled 2761
+done-job Ce-O-S-Si A0 SynthNN-style pooled 2761
+done-job Ce-O-S-Si A1 PU-RF 2763
+done-job Ce-O-S-Si A2 SynthNN-style pooled 2771
+done-job B-Ho-Ni-O A4 SynthNN-style pooled 2773
+done-job Ce-O-S-Si A3 SynthNN-style pooled 2784
+done-job Ce-O-S-Si A4 B2 Roost-style PU 2791
+done-job Cl-K-O-Ti A0 PU-RF 2799
+done-job Cl-K-O-Ti A2 PU-RF 2816
+done-job Cl-K-O-Ti A3 SynthNN-style pooled 2816
+done-job Cl-K-O-Ti A1 SynthNN-style pooled 2819
+done-job Cu-O-Se-U A0 SynthNN-style pooled 2822
+done-job Cu-O-Se-U A1 SynthNN-style pooled 2838
+done-job Cl-K-O-Ti A4 SynthNN-style pooled 2847
+done-job Cu-O-Se-U A2 B2 Roost-style PU 2849
+done-job Cu-O-Se-U A3 B1 Magpie-GB PU 2851
+done-job Dy-Ga-Ni-S A0 B2 Roost-style PU 2876
+done-job Dy-Ga-Ni-S A1 B1 Magpie-GB PU 2881
+done-job Cu-O-Se-U A4 B2 Roost-style PU 2888
+done-job Dy-Ga-Ni-S A2 B2 Roost-style PU 2896
+done-job Dy-Ga-Ni-S A3 B2 Roost-style PU 2896
+done-job Al-H-O-P A0 PU-RF 2903
+done-job Dy-Ga-Ni-S A4 PU-RF 2910
+done-job Al-H-O-P A1 B1 Magpie-GB PU 2920
+done-job Al-H-O-P A3 PU-RF 2942
+done-job Al-H-O-P A2 B2 Roost-style PU 2944
+done-job Bi-Mg-O-V A2 PU-RF 2957
+done-job Al-H-O-P A4 B1 Magpie-GB PU 2973
+done-job Bi-Mg-O-V A0 SynthNN-style pooled 2974
+done-job Bi-Mg-O-V A1 B2 Roost-style PU 2976
+done-job Bi-Mg-O-V A3 PU-RF 2977
+done-job Bi-Mg-O-V A4 SynthNN-style pooled 2978
+done-job Cu-Na-O-Te A1 B2 Roost-style PU 3003
+done-job Cu-Na-O-Te A0 B2 Roost-style PU 3008
+done-job Cu-Na-O-Te A2 SynthNN-style pooled 3010
+done-job Cu-Na-O-Te A4 B2 Roost-style PU 3024
+done-job Cu-Na-O-Te A3 B2 Roost-style PU 3025
+done-job Fe-O-Sr-U A0 B1 Magpie-GB PU 3026
+done-job Fe-O-Sr-U A2 SynthNN-style pooled 3038
+done-job Fe-O-Sr-U A1 B2 Roost-style PU 3042
+done-job Fe-O-Sr-U A3 SynthNN-style pooled 3048
+done-job Fe-O-Sr-U A4 SynthNN-style pooled 3056
+done-job N-O-P-Zn A0 PU-RF 3060
+done-job N-O-P-Zn A1 B1 Magpie-GB PU 3075
+done-job N-O-P-Zn A2 B2 Roost-style PU 3076
+done-job N-O-P-Zn A3 SynthNN-style pooled 3079
+done-job N-O-P-Zn A4 PU-RF 3091
+done-job Na-Nb-O-Se A1 SynthNN-style pooled 3104
+done-job Na-Nb-O-Se A0 SynthNN-style pooled 3106
+done-job Na-Nb-O-Se A2 SynthNN-style pooled 3108
+done-job Na-Nb-O-Se A3 SynthNN-style pooled 3109
+done-job Na-Nb-O-Se A4 PU-RF 3123
+done-job Ag-I-N-O A1 SynthNN-style pooled 3127
+done-job Ag-I-N-O A0 B1 Magpie-GB PU 3129
+done-job Ag-I-N-O A2 SynthNN-style pooled 3151
+done-job Ag-I-N-O A3 PU-RF 3152
+done-job Ba-Cl-H-O A1 B1 Magpie-GB PU 3156
+done-job Ba-Cl-H-O A0 B1 Magpie-GB PU 3161
+done-job Ag-I-N-O A4 B2 Roost-style PU 3168
+done-job Ba-Cl-H-O A2 PU-RF 3176
+done-job Ba-Cl-H-O A3 PU-RF 3181
+done-job Ba-Cl-H-O A4 SynthNN-style pooled 3185
+done-job Cl-F-O-Sb A0 SynthNN-style pooled 3199
+done-job Cl-F-O-Sb A1 B1 Magpie-GB PU 3201
+done-job Cl-F-O-Sb A2 B1 Magpie-GB PU 3204
+done-job Cl-F-O-Sb A3 B2 Roost-style PU 3216
+done-job Cl-F-O-Sb A4 PU-RF 3221
+done-job Cl-Mn-O-Rb A0 B1 Magpie-GB PU 3225
+done-job Cl-Mn-O-Rb A1 SynthNN-style pooled 3234
+done-job Cl-Mn-O-Rb A2 PU-RF 3245
+done-job Cl-Mn-O-Rb A3 SynthNN-style pooled 3248
+done-job Co-Ga-Se-Sm A0 B1 Magpie-GB PU 3263
+done-job Cl-Mn-O-Rb A4 SynthNN-style pooled 3266
+done-job Co-Ga-Se-Sm A1 PU-RF 3268
+done-job Co-Ga-Se-Sm A2 B2 Roost-style PU 3280
+done-job Co-Ga-Se-Sm A3 PU-RF 3284
+done-job Co-Ga-Se-Sm A4 B1 Magpie-GB PU 3298
+done-job Cs-O-P-Se A1 SynthNN-style pooled 3300
+done-job Cs-O-P-Se A2 SynthNN-style pooled 3313
+done-job Cs-O-P-Se A0 PU-RF 3314
+done-job Cs-O-P-Se A4 SynthNN-style pooled 3317
+done-job Cs-O-P-Se A3 B2 Roost-style PU 3323
+done-job Mg-O-Si-Sr A0 B2 Roost-style PU 3327
+done-job Mg-O-Si-Sr A1 SynthNN-style pooled 3331
+done-job Mg-O-Si-Sr A2 SynthNN-style pooled 3341
+done-job Mg-O-Si-Sr A3 SynthNN-style pooled 3358
+done-job Mg-O-Si-Sr A4 SynthNN-style pooled 3370
+done-job Mo-Nd-O-Te A0 B1 Magpie-GB PU 3371
+done-job Mo-Nd-O-Te A1 PU-RF 3379
+done-job Mo-Nd-O-Te A2 PU-RF 3384
+done-job Mo-Nd-O-Te A3 PU-RF 3388
+done-job Mo-Nd-O-Te A4 B2 Roost-style PU 3393
+done-job Ag-F-O-V A0 SynthNN-style pooled 3407
+done-job Ag-F-O-V A1 SynthNN-style pooled 3414
+done-job Ag-F-O-V A2 SynthNN-style pooled 3786
+done-job Ag-F-O-V A3 PU-RF 3791
+done-job Al-Fe-Si-Tb A1 B1 Magpie-GB PU 3803
+done-job Al-Fe-Si-Tb A0 PU-RF 3806
+done-job Al-Fe-Si-Tb A2 SynthNN-style pooled 3815
+done-job Ag-F-O-V A4 SynthNN-style pooled 3815
+done-job Al-Fe-Si-Tb A3 PU-RF 3824
+done-job Al-Fe-Si-Tb A4 SynthNN-style pooled 3845
+done-job Ga-Nd-Ni-Se A1 B1 Magpie-GB PU 3857
+done-job Ga-Nd-Ni-Se A0 PU-RF 3859
+done-job Ga-Nd-Ni-Se A3 B2 Roost-style PU 3865
+done-job Ga-Nd-Ni-Se A2 B2 Roost-style PU 3869
+done-job K-Nb-P-S A0 PU-RF 3888
+done-job K-Nb-P-S A1 B2 Roost-style PU 3890
+done-job Ga-Nd-Ni-Se A4 PU-RF 3891
+done-job K-Nb-P-S A3 PU-RF 3906
+done-job K-Nb-P-S A2 PU-RF 3911
+done-job O-Rb-Si-U A0 SynthNN-style pooled 3923
+done-job K-Nb-P-S A4 B2 Roost-style PU 3924
+done-job O-Rb-Si-U A1 SynthNN-style pooled 3928
+done-job O-Rb-Si-U A2 SynthNN-style pooled 3949
+done-job O-Rb-Si-U A3 B2 Roost-style PU 3951
+done-job O-Rb-Si-U A4 SynthNN-style pooled 3952
+done-job Al-Ce-Rh-Si A1 B2 Roost-style PU 3961
+done-job Al-Ce-Rh-Si A0 PU-RF 3962
+done-job Al-Ce-Rh-Si A2 B2 Roost-style PU 3981
+done-job Al-Ce-Rh-Si A4 PU-RF 3985
+done-job Al-Ce-Rh-Si A3 PU-RF 3991
+done-job As-Fe-O-Rb A2 SynthNN-style pooled 4000
+done-job As-Fe-O-Rb A1 PU-RF 4005
+done-job As-Fe-O-Rb A4 SynthNN-style pooled 4020
+done-job As-Fe-O-Rb A3 SynthNN-style pooled 4020
+done-job As-Fe-O-Rb A0 SynthNN-style pooled 4021
+done-job B-Li-Mn-O A1 SynthNN-style pooled 4033
+done-job B-Li-Mn-O A0 B1 Magpie-GB PU 4042
+done-job B-Li-Mn-O A4 PU-RF 4053
+done-job B-Li-Mn-O A2 B1 Magpie-GB PU 4058
+done-job B-Li-Mn-O A3 PU-RF 4063
+done-job Bi-I-K-O A2 SynthNN-style pooled 4071
+done-job Bi-I-K-O A1 SynthNN-style pooled 4077
+done-job Bi-I-K-O A0 SynthNN-style pooled 4091
+done-job Bi-I-K-O A3 PU-RF 4096
+done-job Bi-I-K-O A4 PU-RF 4099
+done-job Ca-N-O-Ti A0 PU-RF 4106
+done-job Ca-N-O-Ti A1 SynthNN-style pooled 4117
+done-job Ca-N-O-Ti A3 SynthNN-style pooled 4123
+done-job Ca-N-O-Ti A2 B1 Magpie-GB PU 4126
+done-job Ca-N-O-Ti A4 SynthNN-style pooled 4138
+done-job Cd-Co-O-V A1 PU-RF 4167
+done-job Cd-Co-O-V A4 PU-RF 4174
+done-job Cl-O-S-Zr A0 PU-RF 4177
+done-job Cd-Co-O-V A0 PU-RF 4177
+done-job Cl-O-S-Zr A1 SynthNN-style pooled 4177
+done-job Cd-Co-O-V A3 PU-RF 4177
+done-job Cd-Co-O-V A2 B2 Roost-style PU 4185
+done-job Cl-O-S-Zr A2 B2 Roost-style PU 4197
+done-job Cl-O-S-Zr A3 SynthNN-style pooled 4221
+done-job Cu-La-S-Sn A2 B2 Roost-style PU 4228
+done-job Cu-La-S-Sn A1 PU-RF 4228
+done-job Cu-La-S-Sn A3 PU-RF 4229
+done-job Cu-La-S-Sn A0 B1 Magpie-GB PU 4582
+done-job Ga-N-O-Sr A0 PU-RF 4596
+done-job Cl-O-S-Zr A4 SynthNN-style pooled 4600
+done-job Cu-La-S-Sn A4 B2 Roost-style PU 4605
+done-job Ga-N-O-Sr A1 PU-RF 4627
+done-job Ga-N-O-Sr A3 PU-RF 4635
+done-job Ga-N-O-Sr A2 SynthNN-style pooled 4635
+done-job Ga-N-O-Sr A4 PU-RF 4637
+done-job Mn-O-Pb-S A0 PU-RF 4657
+done-job Mn-O-Pb-S A2 B2 Roost-style PU 4668
+done-job Mn-O-Pb-S A1 SynthNN-style pooled 4671
+done-job Mn-O-Pb-S A3 SynthNN-style pooled 4672
+done-job Mn-O-Pb-S A4 SynthNN-style pooled 4681
+done-job Al-Fe-Mn-O A0 B1 Magpie-GB PU 4691
+done-job Al-Fe-Mn-O A1 B2 Roost-style PU 4697
+done-job Al-Fe-Mn-O A2 SynthNN-style pooled 4703
+done-job Al-Fe-Mn-O A3 B2 Roost-style PU 4714
+done-job As-Cu-K-S A1 SynthNN-style pooled 4718
+done-job Al-Fe-Mn-O A4 B1 Magpie-GB PU 4720
+done-job As-Cu-K-S A0 PU-RF 4727
+done-job As-Cu-K-S A2 PU-RF 4730
+done-job As-Cu-K-S A4 SynthNN-style pooled 4747
+done-job As-Cu-K-S A3 B2 Roost-style PU 4751
+done-job B-Ca-Ga-O A0 PU-RF 4773
+done-job B-Ca-Ga-O A2 PU-RF 4777
+done-job Ba-Li-N-Si A0 SynthNN-style pooled 4779
+done-job B-Ca-Ga-O A1 B1 Magpie-GB PU 4780
+done-job B-Ca-Ga-O A3 PU-RF 4787
+done-job B-Ca-Ga-O A4 PU-RF 4791
+done-job Ba-Li-N-Si A1 PU-RF 4797
+done-job Ba-Li-N-Si A2 B2 Roost-style PU 4804
+done-job Ba-Li-N-Si A3 B2 Roost-style PU 4820
+done-job Ba-Li-N-Si A4 B2 Roost-style PU 4830
+done-job Ce-O-P-Zr A1 SynthNN-style pooled 4836
+done-job Ce-O-P-Zr A2 B1 Magpie-GB PU 4837
+done-job Ce-O-P-Zr A0 B2 Roost-style PU 4837
+done-job Ce-O-P-Zr A3 B1 Magpie-GB PU 4864
+done-job Ce-O-P-Zr A4 PU-RF 4873
+done-job Cl-Cr-O-Sr A0 PU-RF 4875
+done-job Cl-Cr-O-Sr A1 B1 Magpie-GB PU 4875
+done-job Cl-Cr-O-Sr A4 SynthNN-style pooled 4892
+done-job Cr-Hg-O-S A0 PU-RF 4893
+done-job Cl-Cr-O-Sr A3 B2 Roost-style PU 4898
+done-job Cl-Cr-O-Sr A2 PU-RF 4907
+done-job Cr-Hg-O-S A1 SynthNN-style pooled 4921
+done-job Cr-Hg-O-S A2 PU-RF 4921
+done-job Cr-Hg-O-S A4 B2 Roost-style PU 4933
+done-job Cr-Hg-O-S A3 PU-RF 4934
+done-job Mo-O-Sb-Sm A0 SynthNN-style pooled 4956
+done-job Mo-O-Sb-Sm A2 SynthNN-style pooled 4956
+done-job Mo-O-Sb-Sm A1 SynthNN-style pooled 4967
+done-job Mo-O-Sb-Sm A3 SynthNN-style pooled 4969
+done-job Mo-O-Sb-Sm A4 B1 Magpie-GB PU 4972
+done-job Na-O-Si-Zr A0 PU-RF 4980
+done-job Na-O-Si-Zr A1 SynthNN-style pooled 4988
+done-job Na-O-Si-Zr A2 PU-RF 4998
+done-job Na-O-Si-Zr A3 PU-RF 5007
+done-job Nb-O-Pr-S A2 SynthNN-style pooled 5019
+done-job Na-O-Si-Zr A4 PU-RF 5022
+done-job Nb-O-Pr-S A1 PU-RF 5023
+done-job Nb-O-Pr-S A3 PU-RF 5025
+done-job Nb-O-Pr-S A0 PU-RF 5032
+done-job Nb-O-Pr-S A4 B2 Roost-style PU 5040
+done-job Al-Ni-Pr-S A1 PU-RF 5404
+done-job Al-Ni-Pr-S A3 PU-RF 5412
+done-job Al-Ni-Pr-S A0 PU-RF 5413
+done-job Al-Ni-Pr-S A2 PU-RF 5420
+done-job As-Cs-O-Ti A1 SynthNN-style pooled 5428
+done-job Al-Ni-Pr-S A4 B2 Roost-style PU 5432
+done-job As-Cs-O-Ti A2 SynthNN-style pooled 5435
+done-job As-Cs-O-Ti A0 SynthNN-style pooled 5435
+done-job As-Cs-O-Ti A3 SynthNN-style pooled 5465
+done-job As-Cs-O-Ti A4 SynthNN-style pooled 5467
+                                                    recall@100  recall@500
+method                                                                    
+B1 Magpie-GB PU                                          0.114       0.356
+B2 Roost-style PU                                        0.082       0.284
+B3a BLEND (Magpie-GB + TPOOL)                            0.472       0.741
+B3b BLEND (Roost + TPOOL)                                0.458       0.731
+BEST-LEARNED (inner-selected)                            0.101       0.282
+BLEND (RF + TPOOL)                                       0.474       0.737
+C1 ablation: TPOOL + charge-neutral first [doma...       0.284       0.458
+PU-RF                                                    0.111       0.337
+SynthNN-style pooled                                     0.082       0.194
+TPOOL                                                    0.441       0.709
+TPOOL strict-leakage                                     0.441       0.710
+random                                                   0.002       0.014
+template target-only                                     0.391       0.637
+runtime_s 5468

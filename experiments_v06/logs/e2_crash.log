@@ -1,0 +1,49 @@
+jobs 80
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ~~~~^^^^^^^^^^^^^^^
+  File "/workspace/rev/experiments_v06/run_v06.py", line 151, in job
+    wb, own = inner(cs, pos, tr, C, seed, Xm, IDX, FR, extra)
+              ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/rev/experiments_v06/run_v06.py", line 137, in inner
+    for arm, v in learned_scores(cs, a, seed * 10 + f, Xm, IDX, FR, extra).items():
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/rev/experiments_v06/run_v06.py", line 126, in learned_scores
+    return {"PU-RF": pu_generic(RF(1), cs.X, trc, seed, BAGS, RATIO), "B1 Magpie-GB PU": pu_generic(GB, Xm, trc, seed, BAGS, RATIO),
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/rev/experiments_v05/shared/core.py", line 71, in pu_generic
+    clf = make_clf(seed * 100 + b).fit(Xb, yb)
+  File "/workspace/venv_v06/lib/python3.13/site-packages/sklearn/base.py", line 1393, in wrapper
+    estimator._validate_params()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/workspace/venv_v06/lib/python3.13/site-packages/sklearn/base.py", line 554, in _validate_params
+    validate_parameter_constraints(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._parameter_constraints,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.get_params(deep=False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        caller_name=self.__class__.__name__,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/workspace/venv_v06/lib/python3.13/site-packages/sklearn/utils/_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+    ...<2 lines>...
+    )
+sklearn.utils._param_validation.InvalidParameterError: The 'random_state' parameter of RandomForestClassifier must be an int in the range [0, 4294967295], an instance of 'numpy.random.mtrand.RandomState' or None. Got 20261021000 instead.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspace/rev/experiments_v06/run_v06.py", line 186, in <module>
+    with Pool(8) as p: M = pd.DataFrame([r for x in p.imap_unordered(job, jobs, chunksize=1) for r in x])
+                                                    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/pool.py", line 873, in next
+    raise value
+sklearn.utils._param_validation.InvalidParameterError: The 'random_state' parameter of RandomForestClassifier must be an int in the range [0, 4294967295], an instance of 'numpy.random.mtrand.RandomState' or None. Got 20261021000 instead.
+ALLDONE

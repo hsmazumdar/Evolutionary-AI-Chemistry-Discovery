@@ -14,6 +14,10 @@ from scipy.stats import rankdata
 D = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(D); V05 = os.path.join(ROOT, "experiments_v05"); sys.path.insert(0, V05)
 import shared.core as core
 from shared.core import space, splits, pu_generic, RF, GB, SYSTEMS as V05_SYSTEMS
+# DEVIATION 10: derived seeds reduced mod 2**32 for sklearn (no-op whenever seed < 2**32, i.e. all of E1)
+_RF0, _GB0 = RF, GB
+RF = lambda leaf: (lambda rs: _RF0(leaf)(rs % 2**32))
+GB = lambda rs: _GB0(rs % 2**32)
 MODE = sys.argv[1]; SMOKE = MODE == "smoke"; SEED0 = 20261021
 if SMOKE:
     STUDY = V05_SYSTEMS; RUN = V05_SYSTEMS[:2]; NS = 1
