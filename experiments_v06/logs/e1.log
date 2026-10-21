@@ -1,0 +1,25 @@
+jobs 400
+done-job B-Co-Nd-O A1 B1 Magpie-GB PU 86
+done-job B-Fe-O-Sm A1 B1 Magpie-GB PU 95
+done-job B-Co-Nd-O A4 PU-RF 95
+done-job B-Fe-O-Sm A2 B2 Roost-style PU 96
+done-job B-Co-Nd-O A3 PU-RF 100
+done-job B-Fe-O-Sm A0 B1 Magpie-GB PU 102
+done-job B-Co-Nd-O A2 B1 Magpie-GB PU 111
+done-job B-Co-Nd-O A0 PU-RF 123
+done-job B-Fe-O-Sm A3 SynthNN-style pooled 157
+done-job H-O-Ti-V A0 PU-RF 170
+done-job H-O-Ti-V A2 PU-RF 173
+done-job Mo-O-Rb-S A0 B2 Roost-style PU 179
+done-job B-Fe-O-Sm A4 B1 Magpie-GB PU 179
+done-job H-O-Ti-V A3 PU-RF 181
+done-job H-O-Ti-V A4 PU-RF 182
+done-job H-O-Ti-V A1 PU-RF 194
+done-job Mo-O-Rb-S A1 SynthNN-style pooled 212
+done-job Mo-O-Rb-S A2 B2 Roost-style PU 226
+done-job Mo-O-Rb-S A3 SynthNN-style pooled 232
+done-job Mo-O-Rb-S A4 SynthNN-style pooled 234
+done-job O-P-Sn-Sr A0 SynthNN-style pooled 235
+done-job O-P-Sn-Sr A1 SynthNN-style pooled 236
+done-job O-P-Sn-Sr A2 SynthNN-style pooled 245
+done-job O-P-Sn-Sr A3 SynthNN-style pooled 256

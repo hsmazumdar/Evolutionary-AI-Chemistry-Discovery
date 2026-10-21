@@ -18,3 +18,6 @@ Each entry gives the date and time (IST), what changed, and why. Every entry is 
    - Release https://github.com/hsmazumdar/Evolutionary-AI-Chemistry-Discovery/releases/tag/research-v06-prereg-ea74493 was published 2026-10-21 22:27 IST. Its tag points at commit ea744931ff37d19cca0648372017ffabcc798846 (verified via the GitHub API). The release's target_commitish field reads "main", but the tag object itself is ea74493.
    - Zenodo DOI not yet verified.
    - System selection and building start after this entry.
+8. 2026-10-21 22:40. `analyze_v06.py` was committed before any E1 output was inspected. Interpretations:
+   - The H6.3 margin and CI rule are applied in the hypothesis direction: TPOOL leads by ≥ 0.02 and the CI of (best − TPOOL) is below 0.
+   - H6.4 eligibility (≥ 3 novel test positives summed over splits) and E2 eligibility (≥ 5 test positives) are computed from label counts only.
