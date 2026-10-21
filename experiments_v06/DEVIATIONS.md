@@ -13,3 +13,8 @@ Each entry gives the date and time (IST), what changed, and why. Every entry is 
    - Magpie-GB: HistGB(150 iterations), 22 Magpie properties × {mean, avg dev, min, max, range} + arity + sorted fractions.
 5. 2026-10-21 22:40. **H6.3 best-learned arm.** It is selected per split by its own family-grouped 3-fold inner recall@100 on training positives. Candidates: PU-RF, B1, B2, SynthNN-style.
 6. 2026-10-21 22:40. **The pre-registration was not yet pushed or archived** when this code was written. GitHub push credentials are not available on the box. System selection and building (#39–118) and all V06 runs are held until the pre-registration commit is on GitHub and archived on Zenodo.
+7. 2026-10-21 22:27. **Hold lifted.**
+   - research-v06 (ea74493, e1f8b41) was pushed by the author from the Vivobook.
+   - Release https://github.com/hsmazumdar/Evolutionary-AI-Chemistry-Discovery/releases/tag/research-v06-prereg-ea74493 was published 2026-10-21 22:27 IST. Its tag points at commit ea744931ff37d19cca0648372017ffabcc798846 (verified via the GitHub API). The release's target_commitish field reads "main", but the tag object itself is ea74493.
+   - Zenodo DOI not yet verified.
+   - System selection and building start after this entry.

@@ -1,0 +1,329 @@
+{
+ "source_mp_sha256": "20b221933a314aeee1113b789985e055db7a744b373c3d9c63bd62d00988f7c3",
+ "ranking_sha256": "33063286ca1617089d3f39a1bdb7be0b76bd686d8d4af42e69d4200b2089743b",
+ "fresh_systems": [
+  "B-Co-Nd-O",
+  "B-Fe-O-Sm",
+  "H-O-Ti-V",
+  "Mo-O-Rb-S",
+  "O-P-Sn-Sr",
+  "Al-Cu-O-Ti",
+  "Ca-Fe-Ge-O",
+  "Cl-Fe-O-W",
+  "Co-O-S-U",
+  "La-O-Se-Ti",
+  "Mo-Na-O-U",
+  "N-Na-O-W",
+  "O-Sb-Tl-V",
+  "As-Ba-Cu-O",
+  "Ba-Nb-O-Te",
+  "Bi-Mo-O-Se",
+  "Fe-O-V-Zn",
+  "Ga-Ge-Ni-Sm",
+  "Al-O-Sr-W",
+  "Cl-Cs-O-U",
+  "Cl-Mo-O-Pr",
+  "I-La-O-V",
+  "In-La-Ni-S",
+  "As-Co-Na-O",
+  "Ba-Cr-N-O",
+  "Bi-Mn-O-Sr",
+  "Cl-O-P-Re",
+  "Ge-Ho-In-Ni",
+  "Ge-Li-O-Ti",
+  "K-Mn-N-O",
+  "Mn-O-Pr-Se",
+  "B-Co-Er-Si",
+  "B-Co-Fe-Y",
+  "B-Co-Ni-Sm",
+  "B-Ho-Ni-O",
+  "Ce-O-S-Si",
+  "Cl-K-O-Ti",
+  "Cu-O-Se-U",
+  "Dy-Ga-Ni-S",
+  "Al-H-O-P",
+  "Bi-Mg-O-V",
+  "Cu-Na-O-Te",
+  "Fe-O-Sr-U",
+  "N-O-P-Zn",
+  "Na-Nb-O-Se",
+  "Ag-I-N-O",
+  "Ba-Cl-H-O",
+  "Cl-F-O-Sb",
+  "Cl-Mn-O-Rb",
+  "Co-Ga-Se-Sm",
+  "Cs-O-P-Se",
+  "Mg-O-Si-Sr",
+  "Mo-Nd-O-Te",
+  "Ag-F-O-V",
+  "Al-Fe-Si-Tb",
+  "Ga-Nd-Ni-Se",
+  "K-Nb-P-S",
+  "O-Rb-Si-U",
+  "Al-Ce-Rh-Si",
+  "As-Fe-O-Rb",
+  "B-Li-Mn-O",
+  "Bi-I-K-O",
+  "Ca-N-O-Ti",
+  "Cd-Co-O-V",
+  "Cl-O-S-Zr",
+  "Cu-La-S-Sn",
+  "Ga-N-O-Sr",
+  "Mn-O-Pb-S",
+  "Al-Fe-Mn-O",
+  "As-Cu-K-S",
+  "B-Ca-Ga-O",
+  "Ba-Li-N-Si",
+  "Ce-O-P-Zr",
+  "Cl-Cr-O-Sr",
+  "Cr-Hg-O-S",
+  "Mo-O-Sb-Sm",
+  "Na-O-Si-Zr",
+  "Nb-O-Pr-S",
+  "Al-Ni-Pr-S",
+  "As-Cs-O-Ti"
+ ],
+ "systems": {
+  "B-Co-Nd-O": {
+   "entries_sha256": "403a251ec6e64a86ef166094ef6c35c9abadf581c460602c73f35aa5122060df"
+  },
+  "B-Fe-O-Sm": {
+   "entries_sha256": "4cb5e265aa56d7d635032dd6fae78c6a303c8937e11fdb3f7600d880971bef10"
+  },
+  "H-O-Ti-V": {
+   "entries_sha256": "e96a69b6ecd97f957865e2680d3b034f777b01f4c89fcf2a4eb54c342831c65c"
+  },
+  "Mo-O-Rb-S": {
+   "entries_sha256": "1d43c607b8799c9e41103141341ae91728111cab51e720f5e8c9d228b244112a"
+  },
+  "O-P-Sn-Sr": {
+   "entries_sha256": "e59a43230a840eaada3db3ea61899ab12d7cf1b4b01f4410cd2b4f045ae4b8fa"
+  },
+  "Al-Cu-O-Ti": {
+   "entries_sha256": "d71aa8fb2ddbe52f7796d6bf3f6525bb5fa5f62d3b5a1aa15328672a0576cf85"
+  },
+  "Ca-Fe-Ge-O": {
+   "entries_sha256": "95c62c06344d3d181bc964b02c3535025f17dba352ecde45f173eaddacbcdd1e"
+  },
+  "Cl-Fe-O-W": {
+   "entries_sha256": "24442999c75020dc711e6a7bd4be8311267a3d71ad908074f6b54d673e5b65cd"
+  },
+  "Co-O-S-U": {
+   "entries_sha256": "b9f53a29c5e85da9470e538eee8ef683cb1d6abb01381b418a03caea20a92fc4"
+  },
+  "La-O-Se-Ti": {
+   "entries_sha256": "6420c5ca85967e3c3fa66c4d64cef651c08dfbb32e5464c922a1649a7208bb58"
+  },
+  "Mo-Na-O-U": {
+   "entries_sha256": "75a67c8f02c7a77719b51602af6bf77adfe7dab80417874bcf4f9d6b46bed6d9"
+  },
+  "N-Na-O-W": {
+   "entries_sha256": "33655ba7a2d504f86fa4ebaad34b0af98d3c19859074766a4fad55395e12b678"
+  },
+  "O-Sb-Tl-V": {
+   "entries_sha256": "89b1de767efbf2d599ea9b431cc48129d50fbdd0f8e54660d66c809882ea7760"
+  },
+  "As-Ba-Cu-O": {
+   "entries_sha256": "30a2a1af5a451759c9b01855bc40c922efada71a7ff42acc7d63d72526457db0"
+  },
+  "Ba-Nb-O-Te": {
+   "entries_sha256": "3eed592eb94c9acd6c72e6fceac9d4a95cca5b9eb743dd19a356bb42631ced00"
+  },
+  "Bi-Mo-O-Se": {
+   "entries_sha256": "5bb78dfdb16100dcd9ea1c8bf6a1f0b2fa22e99662a7b32e14478844aed249c8"
+  },
+  "Fe-O-V-Zn": {
+   "entries_sha256": "6ea45127ed094d27bf37347338938566aa58d1ccabbf55eac84783008cf30bbc"
+  },
+  "Ga-Ge-Ni-Sm": {
+   "entries_sha256": "15f8d1b71a580a2b35c0f7e7a9240bbee0fa43b0bc0d7bbe460204393c68ba49"
+  },
+  "Al-O-Sr-W": {
+   "entries_sha256": "6d3397f1fe8c6133c4d50ac7fe787c8a39e95cae789534daa750b7c48c8d38e6"
+  },
+  "Cl-Cs-O-U": {
+   "entries_sha256": "c46b17fe1864a106d238aee1b5d5763cabd26e774cef41d99602e5a0f558a243"
+  },
+  "Cl-Mo-O-Pr": {
+   "entries_sha256": "17c491e400a12fd3083d8cfcc19a275b79c0822518d210e68c1a833693637220"
+  },
+  "I-La-O-V": {
+   "entries_sha256": "d0bb000aa5be6404c733d3ba0cd58bc396c5f93af9a9338ec99b16f04990bd81"
+  },
+  "In-La-Ni-S": {
+   "entries_sha256": "dc98ebd9f90577df58e231fadb428ca7f89a0a0e89b6c7a04cadd75478af5ec2"
+  },
+  "As-Co-Na-O": {
+   "entries_sha256": "b85f2c412836386a4b8b9998e0fdcad2f83b17cde76ab8a1fb03d92314d13495"
+  },
+  "Ba-Cr-N-O": {
+   "entries_sha256": "7825dd90ac4eac6c2f2de247493c7abe235e381d306a206f879466933106bd88"
+  },
+  "Bi-Mn-O-Sr": {
+   "entries_sha256": "38496c5dad0fc73c2b89cc0d6c93c17df17accefbf5d74dc880be412c1bec218"
+  },
+  "Cl-O-P-Re": {
+   "entries_sha256": "d0a5fe4425cb228a7ca0516d379d0ad00e22b60a7252a64d241ddcaaf29c175c"
+  },
+  "Ge-Ho-In-Ni": {
+   "entries_sha256": "c9397b8896d98cfb91de53c4cfe4efb23e3fa77f7c7bc9d86f122ab6b711de97"
+  },
+  "Ge-Li-O-Ti": {
+   "entries_sha256": "7cbc3660acd1775d567ccc81746419e1d1992177fc9ecd7c2fff9d0bc8161da7"
+  },
+  "K-Mn-N-O": {
+   "entries_sha256": "ee7e78128fb9d3aa59b400f9503464bb73fba1ea05446c49b96fe7a1ed670e5a"
+  },
+  "Mn-O-Pr-Se": {
+   "entries_sha256": "abc988167313cbebf257315a4f1ebecc36cb22b10510a3e2ef5f263fa13c7520"
+  },
+  "B-Co-Er-Si": {
+   "entries_sha256": "281f8e2e369a7e36ebddd6cef91e85ddea3de3e63e11aea3237d46291ac442f0"
+  },
+  "B-Co-Fe-Y": {
+   "entries_sha256": "38d92e230d89e3c0ea2f9cbdc0428f8224d7294397ca2d8c9701d75113dfc1f1"
+  },
+  "B-Co-Ni-Sm": {
+   "entries_sha256": "b38d046d39a2f6f51245469a8f3039a823416d8e8f2a316a9635989e188d97ac"
+  },
+  "B-Ho-Ni-O": {
+   "entries_sha256": "dcb00eec8984399ef469df0025d82523f8156cdec2efe1343f38d23bfe853aea"
+  },
+  "Ce-O-S-Si": {
+   "entries_sha256": "fc3582cd90e19dc9c8bb8845caabeb25eb8c04225712c17f7b2d797ae178c78c"
+  },
+  "Cl-K-O-Ti": {
+   "entries_sha256": "ca881951e50d2d26e708c6cc0bc42ffbe358805c5b1d378e91750d8d519874c5"
+  },
+  "Cu-O-Se-U": {
+   "entries_sha256": "697dd9fddeb45da34412ffa374294d666e276193125d92b1acecb080ecd491ac"
+  },
+  "Dy-Ga-Ni-S": {
+   "entries_sha256": "3be2b87a650d5e826796b2f3143f078152032009046ea3f64c0ae2ceada90f48"
+  },
+  "Al-H-O-P": {
+   "entries_sha256": "29be97bc791e55a25fc0a66f8745e9f062a4c4a9cab2c78cdccc8d1c4ea6b58b"
+  },
+  "Bi-Mg-O-V": {
+   "entries_sha256": "64b58c6c01cc9b93d3486d60d190da3f763ec6eabdd310500539fd80599e0c1f"
+  },
+  "Cu-Na-O-Te": {
+   "entries_sha256": "fc041a5d3414a8bba62de29aa06c05f4136352231e89c34db6f7b7fd20fe0011"
+  },
+  "Fe-O-Sr-U": {
+   "entries_sha256": "7ef07004a3053839bc463df8e1f921b1d93dc7d0cb3dbb1f9d5e6ec2b85bff65"
+  },
+  "N-O-P-Zn": {
+   "entries_sha256": "d6dab01faa435ca12aa5fda8e931780110858888da2c2cc1b65cdee1b35c7bca"
+  },
+  "Na-Nb-O-Se": {
+   "entries_sha256": "c36ee21c2956221dc104115503f0fa76f2f2222f2d972035bd667f52ab6161f4"
+  },
+  "Ag-I-N-O": {
+   "entries_sha256": "e67a129ce3dbd4e513f2ededc045db79c41b4666dafda904761b25b18eb9b3ff"
+  },
+  "Ba-Cl-H-O": {
+   "entries_sha256": "c88b3e42698db3654e60a5ff63130153fae9ac6a1ff382caef655201c9ba4a51"
+  },
+  "Cl-F-O-Sb": {
+   "entries_sha256": "3c00087630f1c889875c37aef946ceccf11d85aed407f5fe7974cba78953bdba"
+  },
+  "Cl-Mn-O-Rb": {
+   "entries_sha256": "66a6199ed092eadba4ae2fc0b70e415b86b2058b7a28d1d5e6ed6860f57f5722"
+  },
+  "Co-Ga-Se-Sm": {
+   "entries_sha256": "5fdc464eb4f8efd9c679bf70bcf33b4576279dfc474d8de3461153aeb79befd7"
+  },
+  "Cs-O-P-Se": {
+   "entries_sha256": "6e9c271b441826abb2673762d6e2d997950fbc9902318620b3879dce9ea3e719"
+  },
+  "Mg-O-Si-Sr": {
+   "entries_sha256": "b75620ee4431aae81a15ab2b0dcaa31f42476a3f943d21f55dc08a5278329e88"
+  },
+  "Mo-Nd-O-Te": {
+   "entries_sha256": "2369a7c270e806014092f901306bda8bf581dbfed22fde25142b6ee8144404c0"
+  },
+  "Ag-F-O-V": {
+   "entries_sha256": "658291d253739f7f54704e7dea83feab24b62e5360cfa36284a8e16b75e92797"
+  },
+  "Al-Fe-Si-Tb": {
+   "entries_sha256": "3962deca10f488a1207c56de22bc06e25d9b65a87753176eb0582d523ba6a691"
+  },
+  "Ga-Nd-Ni-Se": {
+   "entries_sha256": "7e22f25ceaa70970efcdbb8933467aecae626cf408a77b1e348613375b432127"
+  },
+  "K-Nb-P-S": {
+   "entries_sha256": "d04966304d5e37f1763060ef19d5e87476eb4b30554676ce0d2a9bd5f6e9a56d"
+  },
+  "O-Rb-Si-U": {
+   "entries_sha256": "bb040fe9f029da82570a06ccd42672f8a7b797eb650d49f30bc6d56062a07d84"
+  },
+  "Al-Ce-Rh-Si": {
+   "entries_sha256": "a47ae54e9c0ca124aa61db4295f124003053e1c1be47653d84c0e340522d3935"
+  },
+  "As-Fe-O-Rb": {
+   "entries_sha256": "4d5b26784805d76380eaf97c0b30cb185311dcd72bf4269bf7b595cf672876a6"
+  },
+  "B-Li-Mn-O": {
+   "entries_sha256": "b3c5e2bd0f77639321ec5b061dd8f6b53e44a86e6ccc7a09caa43b96961ea2c0"
+  },
+  "Bi-I-K-O": {
+   "entries_sha256": "25c23635ad8720d95e43fea0d72c01969c228fb63a035624aa461bd0ffe22d42"
+  },
+  "Ca-N-O-Ti": {
+   "entries_sha256": "be192b4bbf31f49ff0b6f55c212f79ae656a931bb62663d55168d488fd7693a1"
+  },
+  "Cd-Co-O-V": {
+   "entries_sha256": "1c042c611155596e53e54ad2469e7ddee80f9e66ad0cc88d3272295595f22b60"
+  },
+  "Cl-O-S-Zr": {
+   "entries_sha256": "7bd7997021cdd8c02932200ec818b28a11f228f6768894601da6a10ff82e05b3"
+  },
+  "Cu-La-S-Sn": {
+   "entries_sha256": "c762d755d01bd7b490e8d6f3d30c0552f84a7f32461302337bec2be20edbc653"
+  },
+  "Ga-N-O-Sr": {
+   "entries_sha256": "83d422bdce78f8f067143e841250eda49fa660fd032fcf3ca57538da2bc5bbf8"
+  },
+  "Mn-O-Pb-S": {
+   "entries_sha256": "c4a6a8e1d279d8c6d56670750167e070056e00f7825c1c62e3e07e7ee6762d01"
+  },
+  "Al-Fe-Mn-O": {
+   "entries_sha256": "c355ff51eae9243cd229c019b3b835f6a9e8cb3fc1f9777624c13a43a3c6e56a"
+  },
+  "As-Cu-K-S": {
+   "entries_sha256": "d2ffbf6dd093ca97d84cd4e892e1441172da5e8a135643483c18602a814c0647"
+  },
+  "B-Ca-Ga-O": {
+   "entries_sha256": "a485f7532064f09514e50d10bba0cab2e5ad110f630934f19660ae3407373f7a"
+  },
+  "Ba-Li-N-Si": {
+   "entries_sha256": "e1e0583f8c3d7fd27fbf4bcdd0449920bfaba56046254718ba4351fabab8185d"
+  },
+  "Ce-O-P-Zr": {
+   "entries_sha256": "dfabbb8d22a7a7e0101330fd0b859173a284b7c3511fd3aa5e908e01a9339bfe"
+  },
+  "Cl-Cr-O-Sr": {
+   "entries_sha256": "ec444813d7f5837a036fdeaf7c1959346bfb926feabe8add0344f69d77b2f956"
+  },
+  "Cr-Hg-O-S": {
+   "entries_sha256": "e77188b8296dcd3a45838b98179ea636666b5cc660338706eb45f830b406e519"
+  },
+  "Mo-O-Sb-Sm": {
+   "entries_sha256": "68d96607904339005d14428aee96bf8b574860643b6833c276b6ad2b86de589e"
+  },
+  "Na-O-Si-Zr": {
+   "entries_sha256": "81888d5bc57fab1d02028522ebf51b64618ad16cf278b71ead17d607052fd8a1"
+  },
+  "Nb-O-Pr-S": {
+   "entries_sha256": "82745555aa7be2a45ed0f3c8fa6bb35087c3915d3873b74353f2955ee65a7e50"
+  },
+  "Al-Ni-Pr-S": {
+   "entries_sha256": "968125126947c298d1e98eec7ebaad45db4cab13c1f8fbad19bae6967b425ac9"
+  },
+  "As-Cs-O-Ti": {
+   "entries_sha256": "cf911438770b690389c8d1ec13ca272700f06d3c0c15defcb97bdebc741bf77d"
+  }
+ },
+ "formulas_v06_sha256": "22f616efa14a2be8f383bf078b9120d32fcbf2356a885930f521bb8f2a0f2173"
+}
