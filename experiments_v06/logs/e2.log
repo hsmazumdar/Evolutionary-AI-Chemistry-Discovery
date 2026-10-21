@@ -1,4 +1,97 @@
-Traceback (most recent call last):
-  File "/workspace/rev/experiments_v06/run_v06.py", line 12, in <module>
-    import numpy as np, pandas as pd, torch
-ModuleNotFoundError: No module named 'torch'
+jobs 80
+done-job Mo-O-Rb-S T0 B2 Roost-style PU 88
+done-job Al-Cu-O-Ti T0 SynthNN-style pooled 100
+done-job Ca-Fe-Ge-O T0 PU-RF 101
+done-job B-Co-Nd-O T0 PU-RF 101
+done-job B-Fe-O-Sm T0 SynthNN-style pooled 101
+done-job Cl-Fe-O-W T0 B1 Magpie-GB PU 101
+done-job O-P-Sn-Sr T0 SynthNN-style pooled 102
+done-job H-O-Ti-V T0 PU-RF 103
+done-job Co-O-S-U T0 B2 Roost-style PU 159
+done-job Mo-Na-O-U T0 SynthNN-style pooled 161
+done-job Bi-Mo-O-Se T0 PU-RF 161
+done-job La-O-Se-Ti T0 SynthNN-style pooled 161
+done-job Ba-Nb-O-Te T0 SynthNN-style pooled 163
+done-job As-Ba-Cu-O T0 B2 Roost-style PU 172
+done-job O-Sb-Tl-V T0 B1 Magpie-GB PU 181
+done-job N-Na-O-W T0 SynthNN-style pooled 185
+done-job Ga-Ge-Ni-Sm T0 PU-RF 233
+done-job Fe-O-V-Zn T0 B2 Roost-style PU 234
+done-job Al-O-Sr-W T0 SynthNN-style pooled 235
+done-job Cl-Mo-O-Pr T0 B1 Magpie-GB PU 237
+done-job Cl-Cs-O-U T0 PU-RF 250
+done-job As-Co-Na-O T0 B1 Magpie-GB PU 251
+done-job I-La-O-V T0 PU-RF 260
+done-job In-La-Ni-S T0 B2 Roost-style PU 264
+done-job Ba-Cr-N-O T0 SynthNN-style pooled 292
+done-job Bi-Mn-O-Sr T0 B1 Magpie-GB PU 302
+done-job K-Mn-N-O T0 SynthNN-style pooled 312
+done-job Ge-Li-O-Ti T0 SynthNN-style pooled 315
+done-job Ge-Ho-In-Ni T0 PU-RF 321
+done-job Cl-O-P-Re T0 B2 Roost-style PU 325
+done-job B-Co-Er-Si T0 B2 Roost-style PU 341
+done-job Mn-O-Pr-Se T0 B1 Magpie-GB PU 353
+done-job B-Co-Ni-Sm T0 B2 Roost-style PU 369
+done-job B-Co-Fe-Y T0 B2 Roost-style PU 380
+done-job Ce-O-S-Si T0 B1 Magpie-GB PU 380
+done-job Cu-O-Se-U T0 SynthNN-style pooled 385
+done-job B-Ho-Ni-O T0 B1 Magpie-GB PU 389
+done-job Cl-K-O-Ti T0 B1 Magpie-GB PU 405
+done-job Al-H-O-P T0 SynthNN-style pooled 419
+done-job Dy-Ga-Ni-S T0 B2 Roost-style PU 429
+done-job Cu-Na-O-Te T0 B1 Magpie-GB PU 440
+done-job N-O-P-Zn T0 SynthNN-style pooled 442
+done-job Na-Nb-O-Se T0 SynthNN-style pooled 448
+done-job Fe-O-Sr-U T0 PU-RF 448
+done-job Bi-Mg-O-V T0 B1 Magpie-GB PU 459
+done-job Ag-I-N-O T0 SynthNN-style pooled 467
+done-job Ba-Cl-H-O T0 B2 Roost-style PU 493
+done-job Cl-F-O-Sb T0 B1 Magpie-GB PU 498
+done-job Co-Ga-Se-Sm T0 B2 Roost-style PU 506
+done-job Mg-O-Si-Sr T0 SynthNN-style pooled 510
+done-job Cl-Mn-O-Rb T0 SynthNN-style pooled 511
+done-job Cs-O-P-Se T0 SynthNN-style pooled 518
+done-job Mo-Nd-O-Te T0 SynthNN-style pooled 520
+done-job Ag-F-O-V T0 B2 Roost-style PU 543
+done-job Al-Fe-Si-Tb T0 SynthNN-style pooled 564
+done-job Al-Ce-Rh-Si T0 B1 Magpie-GB PU 570
+done-job Ga-Nd-Ni-Se T0 PU-RF 575
+done-job As-Fe-O-Rb T0 B2 Roost-style PU 581
+done-job O-Rb-Si-U T0 B1 Magpie-GB PU 589
+done-job B-Li-Mn-O T0 SynthNN-style pooled 594
+done-job K-Nb-P-S T0 B2 Roost-style PU 597
+done-job Bi-I-K-O T0 B2 Roost-style PU 607
+done-job Cl-O-S-Zr T0 PU-RF 640
+done-job Ca-N-O-Ti T0 PU-RF 642
+done-job Cu-La-S-Sn T0 B1 Magpie-GB PU 644
+done-job Ga-N-O-Sr T0 B2 Roost-style PU 647
+done-job Mn-O-Pb-S T0 SynthNN-style pooled 647
+done-job Al-Fe-Mn-O T0 PU-RF 654
+done-job Cd-Co-O-V T0 PU-RF 672
+done-job As-Cu-K-S T0 B1 Magpie-GB PU 682
+done-job Ba-Li-N-Si T0 PU-RF 702
+done-job Ce-O-P-Zr T0 B1 Magpie-GB PU 703
+done-job B-Ca-Ga-O T0 PU-RF 712
+done-job Cr-Hg-O-S T0 PU-RF 713
+done-job Cl-Cr-O-Sr T0 PU-RF 726
+done-job Mo-O-Sb-Sm T0 PU-RF 730
+done-job Nb-O-Pr-S T0 B2 Roost-style PU 735
+done-job Na-O-Si-Zr T0 PU-RF 740
+done-job Al-Ni-Pr-S T0 PU-RF 767
+done-job As-Cs-O-Ti T0 SynthNN-style pooled 778
+                                                    recall@100  recall@500
+method                                                                    
+B1 Magpie-GB PU                                          0.079       0.230
+B2 Roost-style PU                                        0.064       0.178
+B3a BLEND (Magpie-GB + TPOOL)                            0.193       0.445
+B3b BLEND (Roost + TPOOL)                                0.205       0.401
+BEST-LEARNED (inner-selected)                            0.093       0.213
+BLEND (RF + TPOOL)                                       0.176       0.427
+C1 ablation: TPOOL + charge-neutral first [doma...       0.300       0.424
+PU-RF                                                    0.060       0.195
+SynthNN-style pooled                                     0.034       0.160
+TPOOL                                                    0.176       0.384
+TPOOL strict-leakage                                     0.177       0.388
+random                                                   0.000       0.003
+template target-only                                     0.149       0.341
+runtime_s 778

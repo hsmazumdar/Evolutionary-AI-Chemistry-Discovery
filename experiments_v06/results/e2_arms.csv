@@ -1,0 +1,14 @@
+method,recall@100,recall@500,recall@1000
+B1 Magpie-GB PU,0.267,0.467,0.533
+B2 Roost-style PU,0.0,0.333,0.4
+B3a BLEND (Magpie-GB + TPOOL),0.182,0.467,0.533
+B3b BLEND (Roost + TPOOL),0.182,0.4,0.4
+BEST-LEARNED (inner-selected),0.133,0.2,0.267
+BLEND (RF + TPOOL),0.182,0.4,0.533
+C1 ablation: TPOOL + charge-neutral first [domain knowledge],0.2,0.333,0.533
+PU-RF,0.133,0.333,0.4
+SynthNN-style pooled,0.067,0.2,0.267
+TPOOL,0.115,0.4,0.533
+TPOOL strict-leakage,0.133,0.4,0.533
+random,0.0,0.067,0.067
+template target-only,0.133,0.267,0.467
