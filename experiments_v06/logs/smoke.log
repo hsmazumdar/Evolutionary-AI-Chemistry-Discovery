@@ -1,0 +1,19 @@
+jobs 2
+done-job Fe-Na-O-P A0 PU-RF 17
+done-job Ba-O-P-V A0 B1 Magpie-GB PU 17
+                                                    recall@100  recall@500
+method                                                                    
+B1 Magpie-GB PU                                          0.114       0.361
+B2 Roost-style PU                                        0.059       0.259
+B3a BLEND (Magpie-GB + TPOOL)                            0.389       0.663
+B3b BLEND (Roost + TPOOL)                                0.460       0.648
+BEST-LEARNED (inner-selected)                            0.098       0.316
+BLEND (RF + TPOOL)                                       0.389       0.662
+C1 ablation: TPOOL + charge-neutral first [doma...       0.176       0.191
+PU-RF                                                    0.112       0.316
+SynthNN-style pooled                                     0.000       0.014
+TPOOL                                                    0.316       0.530
+TPOOL strict-leakage                                     0.316       0.530
+random                                                   0.000       0.000
+template target-only                                     0.138       0.275
+runtime_s 17
