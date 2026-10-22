@@ -23,3 +23,8 @@ Each entry gives the date and time (IST), what changed, and why. Every entry is 
    - H6.4 eligibility (≥ 3 novel test positives summed over splits) and E2 eligibility (≥ 5 test positives) are computed from label counts only.
 9. 2026-10-21 23:17 IST. The agent session was interrupted while waiting. The background E1 run was NOT affected: it was still running at 204/400 jobs, and its processes are intact. It was not restarted; E2 follows automatically in the same chain.
 10. 2026-10-21 18:38 IST. E2 crashed at its first job, before producing any outcomes (logs/e2.log): derived RandomForest seed (seed*100+bag inside shared pu_generic, from E2 base SEED0+1000*i) = 20261021000 exceeds sklearn's 2^32 limit. Fix: in run_v06.py only, RF/GB factories now pass random_state % 2**32. This is a no-op for every seed < 2^32, so E1 (already finished, not re-run) is unaffected. Nothing else changed. The crashed E2 log is preserved as logs/e2_crash.log; E2 rerun once.
+11. 2026-10-22 06:35 IST. **Correction to entry 10's timestamp** (entry 10 itself is left unchanged). "2026-10-21 18:38 IST" was a UTC clock reading mislabelled as IST. The correct time is **2026-10-22 00:08 IST** (18:38 UTC). Evidence:
+   - logs/e2_crash.log was last modified 2026-10-21 23:59:55 IST.
+   - Commit cd368ca, which recorded entry 10, is dated 2026-10-21 18:39:05 UTC (2026-10-22 00:09 IST).
+   - The completed E2 log (logs/e2.log) was last modified 2026-10-22 00:22 IST.
+   - The ordering of events is unchanged: E2 crashed with no outcomes, was fixed, then rerun once.
